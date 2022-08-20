@@ -1,0 +1,452 @@
+---
+title: "Actively Learn Report"
+description: |
+  Examination of Actively Learn data from 21-22
+author:
+  - name: Kasey Dye
+    affiliation: School District's Office of Research & Evaluation
+date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+library(dplyr)
+library(psych)
+library(nationalparkcolors)
+library(ggridges)
+library(corrplot)
+library(gt)
+
+theme_set(theme_minimal())
+
+#set colors
+pal <- park_palette("Everglades", 5)
+
+df_raw <- read_csv(here::here("data/actively_learn_anon_data.csv"))
+
+thresh <- 10 
+
+# combine co-taught stuff
+df <- df_raw |>
+    mutate(
+        total_ss = number_active_students + number_active_students_for_co_taught_classes,
+        total_assign = number_of_assignments + number_of_assignments_for_co_taught_classes,
+        total_s_time = total_active_learning_time + total_active_learning_time_for_co_taught_classes
+    ) |>
+  # filter out non-users
+  #keep people with 10 or more students or sped with at least 1 student
+  filter((total_ss >= 10 | (total_ss > 0 & subject == "Special Education"))) %>%
+    # standardize time per student
+    mutate(
+        time_per_s = total_s_time / total_ss
+    ) |>
+  mutate(
+      school_name.fac = as_factor( school_name), teacher_name.fac = as_factor(teacher_name), subject.fac = as_factor(if_else(str_detect(subject, "Other|Math|World"), "Other", subject)), schoollevel = as_factor(if_else(str_detect(school_name, "Middle|Academy"), "Middle School", "High School")), across(.cols = 12:20, ~if_else(.x >= thresh, TRUE, FALSE), .names = "{.col}_binary"))
+  
+#if didn't use at least 10 times it will be False
+
+features <- c("differentation", "feedback", "annotation", "accessibility", "discussion", "vocabulary")
+
+#function for school feature
+make_tools_plot <- function (x_var, x_lab = "x axis", y_lab = "School", title = "A title") {
+  ggplot(df_summed, aes(x = {{x_var}}, y = fct_reorder(school_name.fac, {{x_var}}))) +
+         geom_col(fill = "#2B5577") +
+  scale_x_continuous(labels = scales::percent_format(), limits = c(0, 1)) +
+    labs(x = x_lab, y = y_lab, title = title) 
+}
+
+#function for content
+make_contenttools_plot <- function (x_var, x_lab = "x axis", y_lab = "Content", title = "A title") {
+  ggplot(df_contentsummed, aes(x = {{x_var}}, y = fct_reorder(subject.fac, {{x_var}}))) +
+         geom_col(fill = "#2B5577") +
+  scale_x_continuous(labels = scales::percent_format(), limits = c(0, 1)) +
+    labs(x = x_lab, y = y_lab, title = title) 
+}
+
+# pivot longer
+df_summed <- df %>%
+  group_by(school_name.fac) %>%
+  summarize(across(matches("binary$"), function(x) {sum(x, na.rm = TRUE) / length(x)}))
+
+df_summed_long <- df_summed %>% 
+  pivot_longer(
+    cols = -school_name.fac, names_to = "metric", values_to = "value"
+  ) %>%
+  mutate(metric = str_remove_all(metric, "_binary"), school_name = as.character(school_name.fac), school_name = str_remove_all(school_name, "School$")) %>%
+  filter(metric %in% features)
+
+df_contentsummed <- df %>%
+  group_by(subject.fac) %>%
+  dplyr::summarize(across(matches("binary$"), function(x) {sum(x, na.rm = TRUE) / length(x)}))
+
+df_contentsummed_long <- df_contentsummed %>% 
+  pivot_longer(
+    cols = -subject.fac, names_to = "metric", values_to = "value"
+  ) %>%
+  mutate(metric = str_remove_all(metric, "_binary")) %>%
+  filter(metric %in% features)
+
+
+#correlation
+cor_mat <- df[features]
+
+#to make plot
+cor_mat %>%
+  cor() %>%
+  corrplot()
+
+cor_mat %>%
+  cor() %>%
+  corrplot.mixed()
+
+#all district percentage
+dfallteach_summed <- df %>%
+  group_by(teacher_name.fac) %>%
+  summarize(across(matches("binary$"), function(x) {sum(x, na.rm = TRUE) / length(x)}))
+
+dfallteach_summed_long <- dfallteach_summed %>% 
+  pivot_longer(
+    cols = -teacher_name.fac, names_to = "metric", values_to = "value"
+  ) %>%
+  mutate(metric = str_remove_all(metric, "_binary")) %>%
+  filter(metric %in% features)
+
+
+dfallteach <- dfallteach_summed_long %>%
+  group_by(metric) %>%
+  summarize(numerator = (sum(value)), denominator = length(value), pnt = (numerator/denominator))
+
+#district means and medians
+dftable <- df %>%
+  summarize(logins = mean(df[["number_of_teacher_logins"]]), medlogins = median(df[["number_of_teacher_logins"]]), assign = mean(df[["total_assign"]]), medassign = median(df[["total_assign"]]), students = mean(df[["total_ss"]]), medstudents = median(df[["total_ss"]]))
+```
+
+# Executive Summary
+
+This report examined teacher usage practices with Actively Learn during its first year of implementation. Teacher usage of Actively Learn varied greatly among schools and content areas. Additionally, the percentage of teachers using each feature differed by school and content area. Differentiation was the least used feature, while accessibility was the most used feature. 
+
+# Background
+
+The 2021-2022 school year was the first year that Actively Learn was implemented in an urban school district's middle and high schools. Actively Learn is a digital curriculum platform with content across a range of areas (e.g. English, Social Studies, Science). It includes a variety of ways students and teachers can interact with the platform, such as reading and annotating articles, commenting on peer comments, and looking up words in the built-in dictionary. The school district has a 5-year contract in place to use Actively Learn.
+
+# Data Processing
+
+The original data included 740 participants, but some of these participants were actually school administrators, duplicates, or curriculum specialists. Only participants that had 10 or more students, or were special education teachers with at least one student, were included in this data analysis. This brought the total number of participants down to 440 teachers.
+
+I separated teacher content areas into 5 categories: Social Studies, ELA, Special Education, Science, and Other. Some teachers were already categorized as Other by the Actively Learn system, and I added Math teachers and World Language teachers to the Other category as well. 
+
+# Analysis
+
+Data was then analyzed by district-level, content, and school. I examined how many teachers were using Actively Learn, the number of teacher logins, the number of active students, and the number of assignments. For different features, I categorized teachers as using/encouraging or not using/encouraging each feature. Teachers had to use the feature at least 10 times for them to be categorized as using/encouraging it. This ensured that I were accounting for purposeful use of the feature. The features I examined were:
+
+-   Differentiation (Number of assignments with at least one student marked as 'Extra Help')
+
+-   Annotation (Number of notes created by students across all of the teacher's assignments)
+
+-   Discussion (Number of teacher or student notes that have at least one student reply in the teacher's assignments)
+
+-   Accessibility (Total number of times students used the text to speech and translation features)
+
+-   Vocabulary (Total number of times students performed word lookups in assignments)
+
+-   Providing feedback (Number of unique student responses where the teacher added a comment)
+
+
+# Teacher Usage of Actively Learn
+
+
+## Division-Level
+
+### Teachers Using Actively Learn
+
+
+This table shows the mean and median number of teacher logins, number of assignments, and active students across the district. The median number (the middle number when put in numerical order) was included to account for outliers. 
+
+
+```{r}
+dftable %>%
+  gt() %>%
+tab_header(title = ("Across the District")) %>%
+  cols_label(logins = "Mean Number of Teacher Logins", medlogins = "Median Number of Teacher Logins", assign = "Mean Number of Total Assignments", medassign = "Median Number of Total Assignments", students = "Mean Number of Active Students", medstudents = "Median Number of Active Students") %>%
+  fmt_number(columns = c(assign, medassign, students, medstudents, logins, medlogins), decimals = 0) %>%
+  cols_align(align = "center")
+```
+
+
+For all teachers in the district, the mean number of teacher logins to Actively Learn for the 2021-2022 school year was 83. The median was much lower at 47, showing that there are most likely outliers. The mean number of total assignments per teacher using Actively Learn was 27 (median was 16), and the mean number of active students per teacher was 71 (median was 66). However, these numbers vary greatly when looking at individual teachers. I will discuss these differences further into this report.
+&nbsp;
+
+
+The graph below shows the number of teachers using Actively Learn and what subject they teach per school.
+
+```{r}
+df %>%
+  count(school_name.fac, subject.fac) %>%
+  ggplot(aes(x = n, y = fct_reorder(school_name.fac, n, sum), fill = subject.fac)) +
+  geom_col() +
+  scale_fill_manual(values = pal, name = "Content Area") +
+  labs(x = "Teachers Using Actively Learn", y = "School", title = "Actively Learn Teacher Usage By School")
+```
+
+As you can see in the graph, the majority of teachers using Actively Learn taught ELA. Some schools only had one or two different content areas using Actively Learn, such as Board High School, Bell Middle School, and Online School. Other Schools, such as Ocean Middle School, had teachers from all five content areas using Actively Learn. The number of teachers using Actively Learn at each school varied greatly, from 2 teachers at Mary High School and Hill High School to 38 teachers at Ocean Middle School.
+
+
+### Percentage of Teachers Using Each Feature in the District
+
+
+The table below shows the number of teachers using or encouraging each feature within Actively Learn. Features with asterisks (**), differentiation and feedback, are the features that are initiated by the teachers, such as the teacher using the differentiation feature on an assignment by marking one or more students as 'Extra Help.' Features without asterisks are the features that are taught and encouraged by the teachers and initiated by the students, such as teaching the students how to use the annotation feature and then having them annotate assignments. 
+
+```{r}
+dfallteach %>%
+  select(-numerator, -denominator) %>%
+  mutate(metric = str_remove_all(metric, "binary"), metric = if_else(metric %in% c("differentation", "feedback"), paste0("**", metric), metric)) %>%
+  gt() %>%
+  tab_header(title = "Percentage of Teachers in District Using or Encouraging Each Feature") %>%
+  cols_label(metric = md("**Feature**"), pnt = md("**Percentage**")) %>%
+  fmt_percent(pnt, decimals = 0)
+```
+
+The least used/encouraged feature was differentiation, with only 7.3% of the teachers in the district using it. A little more than a third of all teachers used/encouraged the discussion (at least 1 student replying in the assignments) and vocabulary features (using word lookups in assignments). More than half, 59%, of all teachers used/encouraged the accessibility feature (using text to speech and translation). 
+
+
+### Correlation Between Features
+
+
+The correlation matrix plot below demonstrates the correlation, how related two variables are, between each of the features. The closer the number is to 1, the stronger the correlation is, and numbers close to zero indicate no correlation. 
+
+
+```{r}
+cor_mat %>%
+  cor() %>%
+  corrplot(method = 'circle', type = 'lower', insig='blank', addCoef.col ='black', tl.cex = 0.8, number.cex = 0.8, order = 'AOE', diag=FALSE)
+```
+
+There appears to be a strong correlation between annotation and vocabulary, such that teachers using/encouraging the annotation feature are more likely to to have students using the vocabulary (students performing word lookups in assignments) feature. There also appears to be a slight correlation between differentiation and accessibility, such that teachers using the differentiation feature are more likely to have students using the accessibility (text to speech and translation) feature. 
+
+No correlation, like between annotation and differentiation, means that teachers that are using/encouraging one feature may not be using/encouraging the other feature. 
+
+
+## School
+
+### Number of Teachers Using Actively Learn Per School
+
+
+The graph below shows the number of teachers using Actively Learn at each school.
+
+
+```{r}
+ggplot(df, aes(y = school_name.fac)) +
+    geom_bar() +
+    labs(
+        x = "Teachers Using Actively Learn",
+        y = "Schools"
+    ) +
+    theme(legend.position = "none") +
+    geom_bar(fill = "#2B5577") +
+    theme_minimal()
+```
+
+As previously demonstrated, the number of teachers using Actively Learn at each school varied greatly
+
+### Number of Teacher Logins Per School
+
+
+The graph below shows the number of teacher logins on Actively Learn at each school. Each dot represents an individual teacher. The mean number of teacher logins per school is shown with the black line on the graph.
+
+
+```{r}
+ggplot(df, aes(x = number_of_teacher_logins, y = fct_reorder(school_name.fac, number_of_teacher_logins, .fun = mean, na.rm = TRUE), color = school_name.fac)) +
+  geom_jitter(width = 0, alpha = .6) +
+  stat_summary(fun= mean, fun.min=mean, fun.max=mean, geom="crossbar", width=0.5, color="black") +
+  theme(legend.position = "none") +
+  labs(x = "Number of Teacher Logins for Actively Learn", y = "School", title = "Actively Learn Teacher Logins By School")
+```
+Most of the teachers had approximately 80 logins on Actively Learn for the school year. Multiple teachers, however, had more than 400 logins on Actively Learn during the school year.   
+
+### Number of Assignments Per School
+
+
+The graph below shows the number of assignments each teacher gave at each school. Each dot represents an individual teacher's number of assignments. The mean number of teacher assignments per school is shown with the black line on the graph.
+
+
+```{r}
+ggplot(df, aes(x = total_assign, y = fct_reorder(school_name.fac, total_assign, .fun = mean, na.rm = TRUE), color = school_name.fac)) +
+  geom_jitter(width = 0, alpha = .6) +
+  stat_summary(fun= mean, fun.min=mean, fun.max=mean, geom="crossbar", width=0.5, color="black") +
+  theme(legend.position = "none") +
+  labs(x = "Number of Assignments", y = "School", title = "Number of Teacher Assignments Per School")
+```
+
+Most of the teachers gave approximately 25 assignments on Actively Learn for the school year. Multiple teachers frequently used Actively Learn and gave more than 100 assignments during the school year. However, more assignments may not equate to better instruction or best practices. 
+
+### Percent of Teachers Using the Feature At Each School
+
+
+The graph below shows the feature usages per school. Features with asterisks (**) are the features that are initiated by the teachers. Features without asterisks are the features that are taught and encouraged by the teachers and initiated by the students. 
+
+
+```{r, fig.width=14, fig.height=10}
+df_summed_long %>%
+  mutate(metric = str_remove_all(metric, "binary"), metric = if_else(metric %in% c("differentation", "feedback"), paste0("**", metric), metric)) %>%
+  ggplot(aes(x = value, y = metric, fill = school_name)) +
+  facet_wrap(vars(school_name), ncol = 4) +
+  geom_col() +
+  scale_x_continuous(labels = scales::percent_format()) +
+  theme (legend.position = "none", text = element_text(size = 15), plot.title = element_text(size = 24), axis.title.y = element_text(size = 20), axis.title.x = element_text(size = 20)) +
+  labs(x = "Percent of Teachers Using Each Feature", y = "Features", title = "Percent of Teachers Using Each Feature Per School")
+```
+
+As the graph above indicates, the feature usages at each school also varies greatly. Differentiation is the least used feature across all schools. At many schools, the majority of teachers are using/encouraging at least one feature consistently. The features that are being consistently used/encouraged at each school differs. For example, at Sunny Middle School the two features used/encouraged the most were accessibility and discussion. Whereas at Bell Middle School, the two features used/encouraged the most were accessibility and annotation. Some schools, like Hill High School and Mary High School, used/encouraged very few features.
+
+&nbsp;
+&nbsp;
+
+The graphs below show each individual feature usage per school.
+
+```{r}
+make_tools_plot(differentation_binary, x_lab = "Percentage of Teachers Using Differentiation", title = "**Differentiation Practices by School")
+
+make_tools_plot(annotation_binary, x_lab = "Percentage of Teachers Using Annotation", title = "Annotation Practices by School")
+
+make_tools_plot(discussion_binary, x_lab = "Percentage of Teachers Using Discussion", title = "Discussion Practices by School")
+
+make_tools_plot(accessibility_binary, x_lab = "Percentage of Teachers Using Accessibility", title = "Accessibility Practices by School")
+
+make_tools_plot(vocabulary_binary, x_lab = "Percentage of Teachers Using Vocabulary", title = "Vocabulary Practices by School")
+
+make_tools_plot(feedback_binary, x_lab = "Percentage of Teachers Using Feedback", title = "**Feedback Practices by School")
+```
+
+The graphs above show that teachers at many schools are not using differentiation, and teachers at multiple schools are not using the feedback, discussion, and annotation features. Teachers at some schools, however, are consistently using/encouraging the Actively Learn features. For example, more than half of the teachers at Lillian Middle School, Highway Middle School, Online School, and Online Middle School used/encouraged the vocabulary feature. Additionally, more than 60% of the teachers at Bell Middle School, Online School, and Breezy High School used/encouraged the annotation feature. 
+
+
+## Content
+
+### Number of Teachers Using Actively Learn Per Content
+
+
+The graph below demonstrates the content areas for teachers using Actively Learn. 
+
+```{r}
+ggplot(df, aes(y = subject.fac)) +
+    geom_bar() +
+    labs(
+        x = "Teachers Using Actively Learn",
+        y = "Content"
+    ) +
+  geom_bar(fill = "#2B5577") +
+    theme(legend.position = "none") +
+    theme_minimal()
+```
+
+The vast majority of the teachers using Actively Learn teach ELA.  
+
+
+### Number of Teacher Logins Per Content
+
+
+The graph below shows the number of teacher logins on Actively Learn for each content area. Each dot represents an individual teacher. The mean number of teacher logins per school is shown with the black line on the graph.
+
+```{r}
+ggplot(df, aes(x = number_of_teacher_logins, y = fct_reorder(subject.fac, number_of_teacher_logins, .fun = mean, na.rm = TRUE), color = subject.fac)) +
+  geom_jitter(width = 0, alpha = .6) + stat_summary(fun= mean, fun.min=mean, fun.max=mean, geom="crossbar", width=0.5, color="black") +
+  theme(legend.position = "none") +
+  labs(x = "Number of Teacher Logins for Actively Learn", y = "Content", title = "Actively Learn Teacher Logins By Content")
+```
+
+The mean number of teacher logins was higher for ELA teachers than other content areas. Numerous ELA teachers had more than 200 logins on Actively Learn, along with a couple Social Studies and Science teachers.    
+
+
+### Number of Assignments Per Content
+
+
+The graph below shows the number of assignments each teacher gave by their content area. 
+
+```{r}
+ggplot(df, aes(x = total_assign, y = fct_reorder(subject.fac, total_assign, .fun = mean, na.rm = TRUE), color = subject.fac)) +
+  geom_jitter(width = 0, alpha = .6) + stat_summary(fun= mean, fun.min=mean, fun.max=mean, geom="crossbar", width=0.5, color="black") +
+  theme(legend.position = "none") +
+  labs(x = "Number of Assignments", y = "Content", title = "Number of Assignments Per Content")
+```
+
+The mean number of assignments was highest for ELA and Social Studies teachers. One Social Studies teacher gave more than 350 assignments on Actively Learn during the school year.  
+
+### Percent of Teachers Using the Feature By Content
+
+
+The graph below shows the feature usages per content area. Features with asterisks (**) are the features that are initiated by the teachers. Features without asterisks are the features that are taught and encouraged by the teachers and initiated by the students. 
+
+```{r, fig.height=5, fig.width= 7}
+df_contentsummed_long %>%
+  mutate(metric = str_remove_all(metric, "binary"), metric = if_else(metric %in% c("differentation", "feedback"), paste0("**", metric), metric)) %>% 
+  ggplot(aes(x = value, y = metric, fill = subject.fac)) +
+  facet_wrap(vars(subject.fac), ncol = 3) +
+  geom_col() +
+  scale_x_continuous(labels = scales::percent_format()) +
+  theme (legend.position = "none") +
+  labs(x = "Percent of Teachers Per Content", y = "Features", title = "Percent of Teachers Using Features By Content Area")
+```
+
+Similar to the feature usages per school, the most commonly used feature was accessibility and the least used feature was differentiation across most of the content areas. For special education teachers, however, the most commonly used/encouraged feature was discussion, but overall special education teachers used/encouraged the least amount of features. ELA teachers most consistently used/encouraged features compared to other content area teachers. 
+&nbsp;
+
+The graphs below show each individual feature usage.
+
+```{r}
+make_contenttools_plot(differentation_binary, x_lab = "Differentiation", title = "**Differentiation Practices by Content")
+
+make_contenttools_plot(annotation_binary, x_lab = "Annotation", title = "Annotation Practices by Content")
+
+make_contenttools_plot(discussion_binary, x_lab = "Discussion", title = "Discussion Practices by Content")
+
+make_contenttools_plot(accessibility_binary, x_lab = "Accessibility", title = "Accessibility Practices by Content")
+
+make_contenttools_plot(vocabulary_binary, x_lab = "Vocabulary", title = "Vocabulary Practices by Content")
+
+make_contenttools_plot(feedback_binary, x_lab = "Feedback", title = "**Feedback Practices by Content")
+```
+
+The graphs above show ELA teachers are consistently using/encouraging the discussion, accessibility, and vocabulary features on Actively Learn. The graphs also demonstrate how little the differentiation feature is being used.
+
+
+## Top Teachers Using the Features
+
+I shared a spreadsheet with the top five teachers that used each feature most frequently. District Curriculum Specialists may want to consider asking some of these teachers to lead a professional development session about how they use these features in their classrooms.
+
+```{r}
+#get top features
+df_top <- df %>% 
+  select(teacher_name, school_name, all_of(features)) %>%
+  pivot_longer(
+    cols = 3:8,
+    names_to = "metric",
+    values_to = "val"
+  ) %>%
+  group_by(metric) %>%
+  slice_max(order_by = val, n = 5)
+```
+
+```{r}
+#get top features by content
+df_topcontent <- df %>% 
+  select(teacher_name, school_name, subject, all_of(features)) %>%
+  pivot_longer(
+    cols = 4:9,
+    names_to = "metric",
+    values_to = "val"
+  ) %>%
+  group_by(subject,metric) %>%
+  filter(subject != "Other", subject != "World Languages", val > 10) %>%
+  slice_max(order_by = val, with_ties = FALSE, n = 5)
+```
+
+
+# Conclusion
+
+The 2021-2022 school year was the first year that the school district implemented Actively Learn. Teacher usage of Actively Learn varied greatly among schools and content areas. For the district's second year with Actively Learn, the District Curriculum Specialists could create professional development sessions on how to use and teach students to use different features. The differentiation feature was used very little this past year, so additional training on this feature could increase usage. I recommend additional student data be collected during the second and third years of implementing Actively Learn so that student growth and achievement can be analyzed.  

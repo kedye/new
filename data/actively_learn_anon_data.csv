@@ -1,0 +1,741 @@
+teacher_name,subject,school_name,number_active_students,number_active_students_for_co_taught_classes,number_of_assignments,number_of_assignments_for_co_taught_classes,total_active_learning_time,total_active_learning_time_for_co_taught_classes,number_of_teacher_logins,total_question_responses,higher_level_questioning,differentation,feedback,formative_evaluation,annotation,discussion,metacognition,accessibility,vocabulary,plan
+"Anderstrom, Alia",Social Studies,Mary High School,66,0,15,0,26.7556,0,62,665,10,0,0,10,0,0,0,48,1,NA
+"Bahena-Sanchez, Miguel",Social Studies,Mary High School,0,10,0,1,0,1.3583,8,0,10,0,0,0,0,0,0,0,0,NA
+"Cohen, Malachi",ELA,Todd Middle School,168,0,103,0,542.4778,0,243,12217,105,0,0,86,4,43,0,231,427,NA
+"Manchego, Walter",ELA,Todd Middle School,110,0,34,0,493.4667,0,117,8480,16,9,15,167,779,133,236,95,736,NA
+"Carrillo, Breanna",ELA,Todd Middle School,0,89,0,25,0,320.2667,62,0,23,0,0,0,0,48,0,0,0,NA
+"Sands, James",ELA,Todd Middle School,155,0,24,0,270.1583,0,100,2925,17,0,0,15,2452,3,1616,82,208,NA
+"Bear, Xavier",ELA,Todd Middle School,128,0,49,0,268.2389,0,166,4215,10,7,176,118,0,0,0,1,2,NA
+"Jackson, Darren",ELA,Todd Middle School,201,0,46,0,245.6556,0,112,1760,34,0,0,8,52,86,0,137,100,NA
+"Nickle, Jd",ELA,Todd Middle School,51,0,58,0,201.8861,0,86,4423,137,0,10,99,17,13,0,422,74,NA
+"Mcelroy-Brown, Josiah",Special Education,Todd Middle School,0,108,0,33,0,179.0417,28,0,73,0,0,0,0,139,0,0,0,NA
+"Miller, Ronnie",ELA,Todd Middle School,169,0,71,0,160.7722,0,114,3513,171,26,0,0,163,11,10,382,15,NA
+"el-Sultan, Tufail",Social Studies,Todd Middle School,170,0,39,0,152.6944,0,99,2954,39,0,0,5,497,5,42,57,9,NA
+"al-Khalil, Fuaad",ELA,Todd Middle School,98,0,21,0,134.9222,0,84,1785,29,9,5,22,143,225,0,196,41,NA
+"Rincon, Nathan",ELA,Todd Middle School,61,0,18,0,125.0889,0,48,1799,22,0,0,2,8,3,0,60,157,NA
+"Atencio, Brianna",ELA,Todd Middle School,72,0,18,0,111.4972,0,57,2163,9,0,22,21,19,194,0,164,27,NA
+"Rhodes, Rachelle",Special Education,Todd Middle School,0,64,0,10,0,99.3056,25,0,28,0,0,0,0,4,0,0,0,NA
+"James, Deonta",ELA,Todd Middle School,87,0,39,0,90.6833,0,59,2158,42,0,0,7,0,79,0,19,25,NA
+"al-Matar, Manaal",ELA,Todd Middle School,126,0,11,0,86.6278,0,67,920,29,0,0,0,9,2,0,37,7,NA
+"Smiley, Philip",Science,Todd Middle School,160,0,21,0,77.825,0,39,1434,16,0,18,5,3,1,0,62,3,NA
+"White, Jonathan",Social Studies,Todd Middle School,130,0,32,0,74.1444,0,35,1716,20,0,0,44,1,1,0,71,6,NA
+"Narayan, Devin",ELA,Todd Middle School,0,74,0,17,0,65.0583,7,0,129,0,0,0,0,84,0,0,0,NA
+"Hobbs, Shawn",Special Education,Todd Middle School,0,33,0,8,0,61.0806,2,0,19,0,0,0,0,0,0,0,0,NA
+"Sale, Calvin Jed",ELA,Todd Middle School,74,0,17,0,57.6472,0,45,1341,12,0,2,12,3,16,0,37,3,NA
+"Gonzales, Jacqueline",ELA,Todd Middle School,1,45,2,22,0.1611,53.6,47,2,67,0,0,0,0,33,0,0,0,NA
+"Chaffee, Mezhgan",ELA,Todd Middle School,82,0,9,0,47.2,0,47,933,11,0,1,16,0,232,0,88,11,NA
+"Navarrete, Veronica",Science,Todd Middle School,77,0,13,0,44.8806,0,4,682,23,0,1,7,0,7,0,41,8,NA
+"Liu, Julia",ELA,Todd Middle School,89,0,24,0,42.0556,0,52,1276,33,0,1,33,0,10,0,19,6,NA
+"Miyagi, Isaiah",Science,Todd Middle School,144,0,6,0,41.5667,0,86,1356,16,0,8,0,0,0,0,5,1,NA
+"Hedin, Canteskuya",Science,Todd Middle School,114,0,13,0,40.8139,0,39,1054,11,0,0,2,0,4,0,11,1,NA
+"Silverston, Chakara",Science,Todd Middle School,103,0,7,0,25.9917,0,13,440,25,0,0,1,3,7,0,26,11,NA
+"al-Hassan, Jawaad",Other,Todd Middle School,0,26,0,4,0,22.6611,9,0,25,0,0,0,0,77,0,0,0,NA
+"Smith, Reginald",Science,Todd Middle School,43,0,9,0,20.7167,0,10,674,12,0,0,0,0,0,0,2,0,NA
+"Kwon, Manas",ELA,Todd Middle School,66,0,4,0,11.3694,0,22,197,3,1,13,14,0,1,0,7,3,NA
+"al-Zaher, Tasneem",ELA,Todd Middle School,3,0,4,0,3.4417,0,18,41,36,0,0,0,0,9,0,1,0,NA
+"Martinez Flood, Cycrena",ELA,Todd Middle School,8,0,5,0,1.7667,0,14,30,7,0,0,1,0,0,0,28,0,NA
+"Martinez, Adrian",Social Studies,Todd Middle School,8,0,2,0,0.8389,0,7,22,5,0,0,0,0,0,0,1,0,NA
+"Shafi, Adriel",Social Studies,Todd Middle School,2,0,2,0,0.5111,0,3,7,9,1,0,0,0,0,0,0,0,NA
+"Pak, Stephanie",Science,Todd Middle School,1,0,2,0,0.2833,0,36,25,17,2,9,4,4,0,0,1,0,NA
+"Laner, Shawn",ELA,Todd Middle School,1,0,1,0,0.0444,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Torrez, Picabo",Social Studies,Todd Middle School,2,0,1,0,0.0194,0,42,1,9,0,1,2,0,0,0,1,0,NA
+"Her, Alyssa",Other,Todd Middle School,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,NA
+"Vue, Amanda",ELA,Todd Middle School,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,NA
+"al-Kalil, Azeema",ELA,Todd Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Snyder, Thomas",ELA,Todd Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Flores, Amethyst",ELA,Todd Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Barros, Christopher",ELA,Todd Middle School,0,0,0,0,0,0,1,0,3,0,0,0,0,0,0,0,0,NA
+"Curtis, Sylis",Social Studies,Todd Middle School,0,0,0,0,0,0,4,0,3,0,0,0,0,0,0,0,0,NA
+"Morphis, Tyler",Science,Todd Middle School,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,NA
+"el-Shahidi, Hamda",Science,Todd Middle School,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,NA
+"al-Baccus, Tayyiba",ELA,Todd Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Sanchez, Jessica",ELA,Mack Career Academy,58,0,145,0,169.7917,0,328,3759,190,49,0,62,3,2,0,79,4,NA
+"Suarez, Devin",ELA,Mack Career Academy,36,0,91,0,72.0806,0,518,979,235,67,3,27,63,11,23,88,87,NA
+"Iron Cloud, Shelbie",ELA,Mack Career Academy,32,0,70,0,68.6,0,325,1152,57,0,112,151,13,15,0,27,2,NA
+"Lampe, Castine",ELA,Mack Career Academy,43,0,78,0,54.2694,0,761,840,111,0,63,7,22,7,0,8,5,NA
+"Zorigt, Saarang",Social Studies,Mack Career Academy,41,0,40,0,31.0583,0,240,1254,86,8,0,34,0,0,0,6,22,NA
+"Van Lieshout, Sheyenne",Social Studies,Mack Career Academy,13,10,13,3,8.5667,5.4278,60,184,26,0,0,0,0,4,0,4,3,NA
+"Taylor, Freddy",Social Studies,Mack Career Academy,23,0,29,0,8.9167,0,41,146,34,4,1,2,0,0,0,3,2,NA
+"Roman, Elizabeth",ELA,Mack Career Academy,25,0,5,0,8.7083,0,32,106,14,0,0,0,1,2,0,18,0,NA
+"Duncan, Nubci",ELA,Mack Career Academy,24,0,8,0,6.5111,0,38,177,11,0,0,1,0,0,0,19,0,NA
+"Gomez, Blake",Social Studies,Mack Career Academy,7,0,2,0,5.1556,0,29,66,10,0,0,0,0,0,0,3,0,NA
+"Johnson, Mitchell",Special Education,Mack Career Academy,0,5,0,11,0,5.1,54,0,62,0,0,0,0,0,0,0,0,NA
+"Hudson, Regina",Social Studies,Mack Career Academy,0,13,0,15,0,4.8111,17,0,60,0,0,0,0,0,0,0,0,NA
+"Thompson, Christopher",Special Education,Mack Career Academy,0,8,0,8,0,4.5056,5,0,47,0,0,0,0,0,0,0,0,NA
+"Meadows, Aaron",Science,Mack Career Academy,2,0,1,0,0.1528,0,20,5,7,0,0,0,0,0,0,0,0,NA
+"Zavala, Karen",Science,Mack Career Academy,3,0,1,0,0.1306,0,13,3,6,0,0,0,0,0,0,0,0,NA
+"Burroughs, Logan",Science,Mack Career Academy,1,0,1,0,0.0528,0,14,0,13,0,0,1,0,0,0,1,0,NA
+"el-Tahir, Luqmaan",Social Studies,Mack Career Academy,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,NA
+"Aveitia, Damaris",Special Education,Mack Career Academy,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Draper, Kiyana",Science,Mack Career Academy,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,NA
+"Carrico, Raymond",Social Studies,Cara Middle School,144,0,359,0,387.8806,0,172,10301,283,0,34,155,14,49,3,863,29,NA
+"Hitchcock, Cameron",ELA,Cara Middle School,179,0,59,0,378.0889,0,147,2780,68,0,0,2,64,37,12,574,835,NA
+"Olson, Gillen",ELA,Cara Middle School,54,0,98,0,134.8,0,566,4205,136,0,2,55,0,4,0,48,13,NA
+"Salazar, Andres",ELA,Cara Middle School,73,0,41,0,126.1417,0,24,2609,67,0,0,0,2,3,0,41,31,NA
+"Herbel, Casey",ELA,Cara Middle School,65,0,25,0,103.2528,0,98,2739,41,0,120,91,8,140,0,33,18,NA
+"Ellis, Samuel",ELA,Cara Middle School,108,0,34,0,101.6833,0,100,1684,125,0,0,2,4,42,0,55,10,NA
+"el-Emami, Faadi",ELA,Cara Middle School,66,0,33,0,76.9667,0,66,899,20,0,0,14,0,1,0,23,1,NA
+"Sandoval, Samantha",Science,Cara Middle School,127,0,35,0,55.6583,0,50,1330,44,0,0,3,1,2,0,25,6,NA
+"Peluso, Kody",ELA,Cara Middle School,70,0,28,0,50.4056,0,27,1151,82,0,0,11,0,21,0,55,11,NA
+"Pope, Paityn",Science,Cara Middle School,113,0,36,0,49.0083,0,22,1289,13,0,6,17,2,2,0,179,3,NA
+"Buford, Saba",Social Studies,Cara Middle School,119,0,6,0,47.2194,0,27,476,5,0,0,0,3,1,0,58,8,NA
+"al-Rizk, Shujaa",Special Education,Cara Middle School,20,0,12,0,37.1111,0,26,551,191,0,0,0,4,2,0,1,7,NA
+"Ditzler, Megan",Social Studies,Cara Middle School,64,0,12,0,14.2556,0,7,385,10,0,0,0,0,1,0,10,3,NA
+"Mccauley, Matthew",ELA,Cara Middle School,20,0,1,0,7.6639,0,7,106,13,0,0,0,0,0,0,0,0,NA
+"el-Harroun, Lateefa",Special Education,Cara Middle School,25,0,3,0,3.3667,0,23,125,7,0,0,2,0,4,0,4,0,NA
+"Cote, Daniel",ELA,Cara Middle School,10,0,1,0,1.3833,0,15,25,5,0,0,0,0,0,0,0,0,NA
+"Ley, Nicolas",ELA,Cara Middle School,6,0,4,0,0.1556,0,11,23,26,0,0,0,0,0,0,0,0,NA
+"Uribe, Armando",ELA,Cara Middle School,0,0,0,0,0,0,29,0,15,0,0,0,0,0,0,0,0,NA
+"Nelson, Jordan",ELA,Cara Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Ngo, Vasanth",Other,Cara Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Alexander, Shawn",ELA,Cara Middle School,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,NA
+"Shibles, Isabella",Other,Cara Middle School,0,0,0,0,0,0,11,0,4,0,0,0,0,0,0,0,0,NA
+"Jackson, Jasmine",ELA,Cara Middle School,0,0,0,0,0,0,9,0,6,0,0,0,0,0,0,0,0,NA
+"Rosales-Bass, Jalen",ELA,Cara Middle School,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,NA
+"Flores Ulloa, Angela",Social Studies,Cara Middle School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,NA
+"Bibbey, Cailie",ELA,Cara Middle School,0,0,0,0,0,0,3,0,6,0,0,0,0,0,0,0,0,NA
+"Camacho, Gage",ELA,Cara Middle School,0,0,0,0,0,0,6,0,6,0,0,0,0,0,0,0,0,NA
+"Martell, Johannah",ELA,Online School,89,0,18,0,121.2083,0,202,1183,19,16,143,62,65,4,0,130,9,Prime
+"Waits, Jason",ELA,Online School,63,0,5,0,67.2333,0,74,1656,51,0,0,20,2,13,0,113,20,Prime
+"Sosa, Edward",ELA,Online School,75,0,3,0,62.3917,0,178,982,13,0,68,24,15,8,0,96,79,Prime
+"Martin, Oshay",ELA,Online School,0,0,0,0,0,0,67,0,0,0,0,0,0,0,0,0,0,Prime
+"Brendsel, Sierra",Science,Online School,0,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,0,Prime
+"al-Dawood, Naadir",Science,Online School,0,0,0,0,0,0,4,0,5,0,0,0,0,0,0,0,0,Prime
+"Villatoro, Vincent",Math,Online School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,Prime
+"Sayler, Stacy",Social Studies,Online School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"Smith, Celyn",Social Studies,Online School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"Speck, James",Other,Online School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Free
+"Ortega, Jack",Science,Online School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,Prime
+"Whitebull-Delgado, Jacey",Social Studies,Online School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Prime
+"Sy, Christina",Other,Online School,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,Prime
+"Franco, Natalie",ELA,Pop High School,124,0,61,0,869.7139,0,271,1982,47,0,0,9,7444,14,1329,226,477,NA
+"Petarde, Royal",ELA,Pop High School,126,0,38,0,185.1556,0,195,2008,78,0,2,0,595,37,3,43,54,NA
+"Romero, Ivy",ELA,Pop High School,109,0,36,0,179.4694,0,117,2804,51,6,2,24,27,10,15,232,120,NA
+"al-Riaz, Sundus",ELA,Pop High School,82,0,30,0,135.7639,0,85,2186,128,0,0,0,1578,0,1455,30,50,NA
+"Bohannon-Pea, Avion",Science,Pop High School,84,0,11,0,56.3111,0,53,2246,22,0,1,13,0,0,0,5,1,NA
+"el-Radwan, Aqeel",ELA,Pop High School,105,0,5,0,33.875,0,53,538,12,0,0,40,3,50,0,0,0,NA
+"Wilkinson, Eli",ELA,Pop High School,140,0,8,0,32.0306,0,71,588,9,0,0,9,5,8,2,20,3,NA
+"Lopez-Naranjo, Jasmin",Science,Pop High School,49,0,4,0,31.0833,0,24,665,6,0,87,1,2,3,2,0,1,NA
+"Ello, Katelyn",ELA,Pop High School,98,0,7,0,23.9333,0,29,375,13,0,0,10,0,16,0,11,0,NA
+"Poghosyan, Malysha",Special Education,Pop High School,19,0,3,0,23.4722,0,35,170,46,0,0,0,14,3,0,2,40,NA
+"el-Jamal, Fawwaaz",ELA,Pop High School,25,0,1,0,12.8056,0,37,207,8,0,0,0,3,26,0,3,4,NA
+"Estes, Dante",Special Education,Pop High School,0,41,0,3,0,8.2528,6,0,5,0,0,0,0,5,0,0,0,NA
+"Tolliver, Vonia",ELA,Pop High School,36,0,3,0,4.9472,0,11,169,4,0,0,0,0,0,0,1,0,NA
+"Palomo, Jasemine",Science,Pop High School,1,0,1,0,0.0028,0,3,0,4,0,0,0,0,0,0,0,0,NA
+"Duong, Sonia",ELA,Pop High School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Harber, Kevin",ELA,Pop High School,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,NA
+"Knodel-Eldridge, Kaylyn",ELA,Pop High School,0,0,0,0,0,0,12,0,2,0,0,0,0,0,0,0,0,NA
+"Kieszkowski, Jacqueline",Other,Pop High School,0,0,0,0,0,0,6,0,4,0,0,0,0,0,0,0,0,NA
+"Raab, Alexander",Other,Pop High School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Nguyen, Joel",World Languages,Pop High School,0,0,0,0,0,0,7,0,4,0,0,0,0,0,0,0,0,NA
+"Gottlieb, Krystel Lee",ELA,Jones High School,116,0,79,0,653.2111,0,271,8533,98,0,9,129,3667,63,165,111,291,NA
+"Carr, Christopher",ELA,Jones High School,106,0,39,0,307.3083,0,188,3037,76,7,86,40,1607,1411,876,33,328,NA
+"el-Taha, Almaasa",ELA,Jones High School,120,0,23,0,178.7583,0,70,68,4,0,0,0,2099,4,35,23,19,NA
+"Back, Paul",Other,Jones High School,31,0,12,0,165.7083,0,47,1362,43,0,0,1,152,0,19,89,660,NA
+"Sandoval, Emanuel",ELA,Jones High School,112,0,12,0,144.2333,0,35,23,25,0,0,0,1,0,0,6,0,NA
+"Davies, Kiana",Other,Jones High School,0,27,0,19,0,104.4194,16,0,73,0,0,0,0,2,0,0,0,NA
+"Kellison, Jamice",Science,Jones High School,130,0,43,0,89.1444,0,178,3377,42,0,0,6,4,1,0,9,6,NA
+"al-Azzi, Tammaam",Special Education,Jones High School,6,41,47,12,14.5389,54.1333,115,310,122,0,0,3,2,27,0,50,8,NA
+"Ortiz, Raymundo",Science,Jones High School,64,0,6,0,35.3306,0,35,726,9,0,0,24,39,0,27,19,9,NA
+"Laroy, David",Science,Jones High School,79,0,4,0,34.2389,0,8,766,9,0,0,0,0,0,0,5,6,NA
+"al-Yasin, Nazeema",Science,Jones High School,58,0,7,0,28.2333,0,29,552,8,0,0,0,22,8,0,8,11,NA
+"Alderete, Jalaka",Other,Jones High School,6,0,6,0,2.0917,0,11,55,10,0,0,6,0,0,0,2,0,NA
+"al-Shams, Musfira",Science,Jones High School,4,0,3,0,0.825,0,13,25,7,0,0,0,0,0,0,0,0,NA
+"Walker-Savoy, Talia",ELA,Jones High School,1,0,1,0,0.0111,0,3,1,101,0,0,0,0,0,0,2,0,NA
+"Hehir, Christopher",Science,Jones High School,1,0,1,0,0.0028,0,1,0,6,0,0,0,0,0,0,0,0,NA
+"Doyle, Dawna",ELA,Jones High School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Harper, Winta",Other,Jones High School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Drum, Ashley",ELA,Jones High School,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,NA
+"Alger, Jay",ELA,Jones High School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Sigillito, Kristina",ELA,Jones High School,0,0,0,0,0,0,17,0,5,0,0,0,0,0,0,0,0,NA
+"el-Siddiqi, Sajaa",ELA,Jones High School,0,0,0,0,0,0,9,0,101,0,0,0,0,0,0,0,0,NA
+"Tivis, Dani",Science,Jones High School,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,NA
+"al-Karam, Mutee'a",Science,Jones High School,0,0,0,0,0,0,6,0,3,0,0,0,0,0,0,0,0,NA
+"Jones, Marcell",ELA,Jones High School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Kentris, Andrea",Science,Jones High School,0,0,0,0,0,0,3,0,2,0,0,0,0,0,0,0,0,NA
+"Guttridge, Andie",Science,Jones High School,0,0,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,NA
+"al-Wahab, Humaira",Science,Jones High School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Mays, Chrant",ELA,Lowville Middle School,124,0,38,0,243.9194,0,159,3335,45,0,0,82,421,132,9,115,18,NA
+"Register, Tyvonn",Social Studies,Lowville Middle School,133,0,30,0,71.3139,0,55,2166,15,0,0,6,15,9,1,59,6,NA
+"Heslip, Delorian",Science,Lowville Middle School,152,0,4,0,40.3444,0,7,1179,12,0,0,0,0,0,0,40,18,NA
+"Yeturi, Padideh",Science,Lowville Middle School,132,0,23,0,34.6083,0,114,1919,13,0,1,0,3,0,0,65,1,NA
+"Stewart, Jay",ELA,Lowville Middle School,50,0,13,0,29.0667,0,31,530,12,0,0,2,5,8,0,73,4,NA
+"Smith, Brittney",ELA,Lowville Middle School,55,0,6,0,18.0472,0,16,375,6,0,0,0,0,7,0,30,1,NA
+"Flores, Noel",Social Studies,Lowville Middle School,32,0,8,0,15.8167,0,18,173,16,0,0,0,0,4,0,45,10,NA
+"Bennett, Quianah",ELA,Lowville Middle School,7,0,17,0,15.7083,0,37,240,59,0,0,47,0,1,0,33,16,NA
+"Nguyen, Hugh",Social Studies,Lowville Middle School,18,0,2,0,4.1,0,12,64,30,0,0,0,0,7,0,0,1,NA
+"Mcneil, Keirra",ELA,Lowville Middle School,6,0,1,0,3.0389,0,5,24,5,0,0,0,0,22,0,8,35,NA
+"Kraft, Brandon",Social Studies,Lowville Middle School,7,0,3,0,1.2917,0,29,72,48,0,0,0,0,0,0,9,2,NA
+"Antonio, Asa",Special Education,Lowville Middle School,2,0,1,0,0.3139,0,10,10,9,0,0,0,0,0,0,2,0,NA
+"Lumba, Ariana",Other,Lowville Middle School,1,0,1,0,0.2167,0,18,4,5,0,2,2,0,0,0,4,0,NA
+"Chen, Mira",ELA,Lowville Middle School,0,0,0,0,0,0,4,0,8,0,0,0,0,0,0,0,0,NA
+"King, Solomon",ELA,Lowville Middle School,0,0,0,0,0,0,39,0,0,0,0,0,0,0,0,0,0,NA
+"Guest, Seth",ELA,Lowville Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Paudel, Man",ELA,Lowville Middle School,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,NA
+"Sharkey, Hope",ELA,Lowville Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Dorado-Luna, Jesus",ELA,Lowville Middle School,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,NA
+"Fenerty, William",Special Education,Lowville Middle School,0,0,0,0,0,0,21,0,11,0,0,0,0,0,0,0,0,NA
+"al-Hussein, Saahira",ELA,Lowville Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Gonzalez, Alisa",Social Studies,Lowville Middle School,0,0,0,0,0,0,15,0,4,0,0,0,0,0,0,0,0,NA
+"Moctezuma, Diana",Science,Lowville Middle School,0,0,0,0,0,0,3,0,20,0,0,0,0,0,0,0,0,NA
+"Choi, Remy",Science,Lowville Middle School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,NA
+"al-Wahab, Najma",ELA,Lowville Middle School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Underwood, Patrick",Social Studies,Lowville Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Lor, Adam",Science,Lowville Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Davis, Avona",Special Education,Lowville Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Kaiwi, Sandeep",ELA,Tall Middle School,62,0,60,0,188.5806,0,75,1455,44,0,0,0,8,12,0,73,22,Prime
+"Bockarie, Di Abranea",ELA,Tall Middle School,80,0,23,0,125.9889,0,71,1678,12,0,0,93,0,126,0,35,42,Free
+"Loftis, Isaiah",ELA,Tall Middle School,124,0,13,0,111.0444,0,49,1002,24,0,0,36,26,38,0,47,102,Prime
+"Williams, Christopher",Science,Tall Middle School,131,0,57,0,109.9806,0,39,2716,48,0,0,0,4,1,0,46,3,Prime
+"Nguyen, Anita",ELA,Tall Middle School,74,0,53,0,109.3861,0,126,2425,154,0,0,4,3,1,0,35,10,Prime
+"Tixier, Isaiah",ELA,Tall Middle School,117,0,31,0,87.0278,0,95,1448,35,0,0,6,0,55,0,17,8,Prime
+"Capwell, Shay",ELA,Tall Middle School,56,0,67,0,85.0333,0,251,1256,72,0,1,5,4,5,0,67,22,Prime
+"Duran, Maria",ELA,Tall Middle School,70,0,74,0,80.7528,0,40,2447,94,0,0,42,2,46,1,252,5,Prime
+"Fernandez, Shaheila",ELA,Tall Middle School,88,0,8,0,75.5167,0,54,441,0,0,98,87,927,0,63,13,14,Prime
+"Gefroh, Khoa",ELA,Tall Middle School,58,0,51,0,74.2028,0,72,1651,61,0,0,0,3,2,0,21,16,Prime
+"el-Hannan, Muntaha",Science,Tall Middle School,143,0,44,0,69.5111,0,77,1678,10,0,69,43,3,15,0,107,3,Prime
+"Briones, Jonathan",ELA,Tall Middle School,66,0,40,0,53.7361,0,98,1471,59,0,0,2,1,48,0,33,5,Prime
+"Nichols, Nicholas",Other,Tall Middle School,0,66,0,42,0,42.1417,28,0,114,0,0,0,0,2,0,1,0,Prime
+"Medina, Naomi",ELA,Tall Middle School,66,0,5,0,32.3528,0,34,302,6,0,4,10,5,3,0,17,1,Free
+"Norman, Victoria",Social Studies,Tall Middle School,142,0,19,0,30.1778,0,46,334,22,1,0,0,1,30,0,53,14,Prime
+"Nichols, Phillip",Science,Tall Middle School,80,0,21,0,21.725,0,28,282,13,0,0,0,0,0,0,10,0,Prime
+"Saunders, Damian",ELA,Tall Middle School,0,13,0,5,0,20.2028,24,0,12,0,0,0,0,12,0,0,0,Prime
+"Quan, Weilun",Science,Tall Middle School,73,0,44,0,19.3944,0,29,444,44,0,0,0,4,1,1,17,0,Prime
+"Sanchez, Angelo",ELA,Tall Middle School,0,61,0,22,0,18.7694,14,0,105,0,0,0,0,3,0,0,0,Prime
+"Duling, Larae",World Languages,Tall Middle School,35,0,3,0,18.3444,0,11,452,8,0,0,0,0,1,0,4,2,Prime
+"Wright-Silby, Adam",Other,Tall Middle School,0,13,0,4,0,17.5611,4,0,12,0,0,0,0,12,0,0,0,Prime
+"Adams, Danny",Science,Tall Middle School,67,0,28,0,17.3833,0,29,396,20,0,0,0,0,0,0,9,1,Prime
+"Graham, Anthony",ELA,Tall Middle School,47,0,17,0,16.2528,0,2,325,41,0,0,0,0,1,0,17,0,Free
+"Gloyd, Bryce",ELA,Tall Middle School,0,47,0,17,0,16.2528,39,0,41,0,0,0,0,1,0,0,0,Prime
+"Antoine, Tatiana",ELA,Tall Middle School,0,43,0,20,0,13.7806,12,0,82,0,0,0,0,24,0,0,0,Prime
+"al-Rehmann, Juhaina",ELA,Tall Middle School,53,0,5,0,12.9833,0,19,71,11,0,0,0,0,3,0,0,0,Prime
+"Minjares, Leilani",Other,Tall Middle School,45,0,4,0,11.5694,0,19,340,13,0,0,0,0,0,0,0,8,Prime
+"Mondragon, Breanna",Social Studies,Tall Middle School,46,22,4,2,6.925,4.0028,20,0,3,0,0,0,0,0,0,1,0,Prime
+"Brownlee, Cheyenne",ELA,Tall Middle School,24,0,8,0,10.7194,0,22,376,30,0,0,0,0,11,0,1,0,Prime
+"Rodgers, Travis",ELA,Tall Middle School,0,16,0,5,0,5.125,2,0,34,0,0,0,0,7,0,0,0,Prime
+"Mendoza Hernandez, Tevin",Other,Tall Middle School,31,0,2,0,4.5222,0,20,100,3,0,0,0,0,0,0,14,7,Prime
+"Parks, Geoffrey",Special Education,Tall Middle School,0,22,0,2,0,4.0028,2,0,3,0,0,0,0,0,0,0,0,Prime
+"Parlin-Three Sti, Gina",ELA,Tall Middle School,18,0,13,0,3.2083,0,24,42,31,0,0,0,7,1,1,0,2,Prime
+"al-Barakat, Rafeeq",ELA,Tall Middle School,20,0,6,0,3.1472,0,11,69,14,0,0,0,0,1,0,0,0,Prime
+"al-Adel, Amaani",Special Education,Tall Middle School,0,4,0,2,0,0.625,6,0,14,0,0,0,0,0,0,0,0,Prime
+"Than, Hannah",Social Studies,Tall Middle School,2,0,1,0,0.4028,0,3,3,3,0,0,0,0,0,0,0,0,Prime
+"Sepulona, Carina",Other,Tall Middle School,10,0,4,0,0.1528,0,3,0,0,0,0,0,0,0,0,0,0,Prime
+"Spracklin, Sean",Other,Tall Middle School,1,0,2,0,0.05,0,45,0,4,0,0,0,0,0,0,0,0,Prime
+"Johnson, Khalia",ELA,Tall Middle School,0,0,0,0,0,0,120,0,14,0,0,0,0,0,0,0,0,Prime
+"Bernal, Emily",ELA,Tall Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,Prime
+"Cuyler, Hayley",ELA,Tall Middle School,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,Prime
+"al-Hakim, Hamza",Special Education,Tall Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Prime
+"Butler, Vince",Other,Tall Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"Riley, Kristen",ELA,Tall Middle School,0,0,0,0,0,0,77,0,3,0,0,0,0,0,0,0,0,Prime
+"O'Malley, Jermie",Social Studies,Tall Middle School,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,Prime
+"Nguyen, Hyun Seok",ELA,Tall Middle School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,Prime
+"Hagen, Alexis",Social Studies,Tall Middle School,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,Prime
+"Pak, Stephanie",Science,Tall Middle School,0,0,0,0,0,0,36,0,8,0,0,0,0,0,0,0,0,Prime
+"Stewart, Jaylen",Other,Tall Middle School,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,Prime
+"Barber, Zachary",Social Studies,Tall Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"el-Yousif, Abdul Lateef",Other,Tall Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Prime
+"al-Jamal, Sameera",Social Studies,Tall Middle School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,Prime
+"Garcia, Marnita",Social Studies,Tall Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"Martin, Charles",Social Studies,Tall Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"Vallerano, Imahd",ELA,Tall Middle School,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,Prime
+"Centola, Nat'E",Science,Tall Middle School,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,Prime
+"Martinez, Lisbeth",Science,Tall Middle School,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,Prime
+"al-Fawaz, Turki",ELA,Tall Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Prime
+"Pinkston, Riley",ELA,Tall Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"Snead, Jack",ELA,Tall Middle School,0,0,0,0,0,0,13,0,2,0,0,0,0,0,0,0,0,Prime
+"Burns, Paije",Other,Tall Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Prime
+"Puente, Carlos",Other,Tall Middle School,0,0,0,0,0,0,5,0,2,0,0,0,0,0,0,0,0,Prime
+"Meek, Lauren",Science,Tall Middle School,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,Prime
+"Yong, Jessy",World Languages,Tall Middle School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,Prime
+"Harding, Mikayla",Other,Tall Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,Prime
+"al-Bahri, Mamoon",Science,Tall Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Prime
+"Eurich, Cheyenne",ELA,Tone High School,53,0,35,0,128.2694,0,125,2512,102,0,0,152,1,1,0,307,14,Prime
+"Coleman, Cheyenne",ELA,Tone High School,113,0,7,0,77.075,0,53,866,12,0,0,3,3,0,0,36,12,Prime
+"Saucedo, Bianca",ELA,Tone High School,108,0,45,0,75.1361,0,102,1705,86,14,80,82,78,24,25,110,13,Prime
+"Fritz, Skylor",ELA,Tone High School,27,20,4,7,10.6778,34.8417,24,188,33,3,27,9,13,1,0,10,2,Prime
+"Zheng, Brian",ELA,Tone High School,40,0,4,0,44.1167,0,98,508,759,0,73,86,0,0,0,7,5,Prime
+"Devaughn, Brandon",ELA,Tone High School,56,14,20,16,25.0111,15.7278,12,557,165,0,1,2,4,3,0,12,10,Prime
+"Rivera, Juan",ELA,Tone High School,121,0,12,0,39.3528,0,43,800,32,5,0,0,18,8,4,5,0,Prime
+"Freeland, Janae",ELA,Tone High School,29,56,8,20,10.3333,25.0111,69,318,104,0,0,0,1,0,0,0,0,Prime
+"al-Salem, Haajara",ELA,Tone High School,0,20,0,7,0,34.8417,26,0,25,0,12,0,0,1,0,0,0,Prime
+"Ontiveros Castillo, Daniel",ELA,Tone High School,55,0,4,0,24.5722,0,55,406,20,0,0,5,8,0,0,27,6,Prime
+"al-Rahman, Faraah",ELA,Tone High School,18,4,13,2,20.6333,0.325,47,412,62,8,0,0,0,1,0,487,1,Prime
+"Vigil, Francisco",World Languages,Tone High School,0,23,0,3,0,8.4361,4,0,9,0,0,0,0,0,0,0,0,Prime
+"Jones, Excell",ELA,Tone High School,33,0,2,0,8.325,0,5,150,3,0,0,0,0,2,0,16,4,Prime
+"Cayou, Tabetha",ELA,Tone High School,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,Prime
+"al-Mohiuddin, Nuzha",ELA,Tone High School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"Stevenson, Mitchelle",ELA,Tone High School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Free
+"Molina, Cleatus",ELA,Tone High School,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,Prime
+"Hernandez, Stevie",ELA,Tone High School,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,Prime
+"el-Basa, Kaarim",ELA,Breezy High School,79,0,26,0,145.4083,0,141,766,29,0,0,49,1460,101,0,58,22,NA
+"Hedin, Alexandra",ELA,Breezy High School,86,0,20,0,112.4222,0,147,789,18,0,0,226,867,43,52,25,30,NA
+"Barraza, Gustavo",ELA,Breezy High School,95,0,25,0,107.2028,0,53,800,22,0,8,19,1020,55,27,28,45,NA
+"el-Azimi, Thaamira",ELA,Breezy High School,87,0,15,0,86.1361,0,85,715,26,0,0,116,751,13,12,8,36,NA
+"Clifton, Alexis",ELA,Breezy High School,80,0,23,0,84.375,0,144,735,22,2,0,12,644,41,5,39,33,NA
+"Valdez, Amayrani",ELA,Breezy High School,74,0,26,0,83.4361,0,52,1202,29,7,0,55,617,179,6,48,21,NA
+"Barrett, Amber",ELA,Breezy High School,79,0,13,0,68.1778,0,104,1060,40,0,185,136,292,342,3,7,42,NA
+"al-Shakir, Shihaab",ELA,Breezy High School,82,0,24,0,62.2139,0,136,1279,62,0,17,2,57,35,15,50,7,NA
+"Gomez, Lucia",ELA,Breezy High School,7,44,2,14,1.2389,59.9944,21,19,18,0,0,4,0,68,0,9,1,NA
+"Kloster, Monica",Other,Breezy High School,56,0,22,0,45.225,0,110,986,47,0,0,2,94,42,2,3,6,NA
+"Sale, Nhung",World Languages,Breezy High School,0,75,0,23,0,36.2417,27,0,20,0,0,0,0,59,0,0,0,NA
+"Gurule, Samuel",ELA,Breezy High School,27,0,8,0,31.7194,0,36,298,26,0,0,0,265,23,16,9,4,NA
+"Baker, Lehanna",ELA,Breezy High School,60,0,8,0,26.6194,0,131,666,17,0,0,0,2,3,0,28,14,NA
+"Kellenaers, Alejandra",ELA,Breezy High School,36,0,7,0,24.1639,0,81,198,29,0,0,21,85,17,10,6,3,NA
+"al-Dia, Raadiya",ELA,Breezy High School,49,0,4,0,17.3472,0,34,299,9,0,0,2,0,1,0,0,6,NA
+"Broyles, Granielle",Science,Breezy High School,67,0,5,0,9.1028,0,41,185,3,0,0,0,0,0,0,4,1,NA
+"Tran, Nicole",Social Studies,Breezy High School,7,0,3,0,5.4361,0,40,85,13,0,0,0,0,1,0,3,0,NA
+"al-Mannan, Shabaan",ELA,Breezy High School,18,0,1,0,5.2167,0,34,49,3,0,0,0,73,1,7,1,0,NA
+"Suzuki, Eric",Science,Breezy High School,17,0,1,0,3.4972,0,22,54,6,0,0,0,3,0,0,5,0,NA
+"Palma-Corral, Janeth",World Languages,Breezy High School,0,11,0,1,0,2.875,18,0,1,0,0,0,0,0,0,0,0,NA
+"Riley, Kristen",ELA,Breezy High School,0,0,0,0,0,0,77,0,22,0,2,0,0,0,0,3,0,NA
+"Shultz, Mason",Other,Breezy High School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Marez, Jovan",ELA,Breezy High School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Campbell, Brianna",ELA,Breezy High School,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,NA
+"Griffin, Amber",ELA,Breezy High School,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,NA
+"Gomez, Lucia",ELA,Breezy High School,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,NA
+"Gibson, Jenae",Math,Breezy High School,0,0,0,0,0,0,11,0,8,0,0,0,0,0,0,0,0,NA
+"Fierro-Navarrete, Sydnee",Social Studies,Breezy High School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Radney, Brizjhane",Special Education,Breezy High School,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,NA
+"Garcia, James",Science,Breezy High School,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,NA
+"el-Sharifi, Abdul Jabbaar",ELA,Breezy High School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Brudos-Nockels, David",Social Studies,Breezy High School,0,0,0,0,0,0,1,0,4,0,0,0,0,0,0,0,0,NA
+"el-Rashed, Muammar",World Languages,Breezy High School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Najera Molina, Jose",ELA,Winter High School,185,0,70,0,826.2944,0,173,10414,102,0,272,146,424,63,35,278,172,Prime
+"el-Akhter, Rawda",ELA,Winter High School,29,0,20,0,715.525,0,161,2799,1,0,397,111,15340,27,2069,233,1985,Prime
+"Diller, Patrick",ELA,Winter High School,95,0,43,0,516.7278,0,193,8570,14,40,478,305,365,38,31,161,494,Prime
+"Burks, Haley",ELA,Winter High School,133,0,34,0,153.8583,0,80,2470,51,0,66,50,1029,328,325,79,148,Prime
+"Chavez, Miranda",ELA,Winter High School,54,0,6,0,129.5083,0,26,579,26,0,0,0,609,14,451,29,17,Prime
+"Saldanha, Elizabeth",Science,Winter High School,100,0,144,0,102.4944,0,105,4074,103,31,0,1,3,1,1,21,4,Prime
+"Blum, Kayla",ELA,Winter High School,88,0,5,0,61.1333,0,28,1190,9,0,1,2,1,8,0,8,6,Prime
+"Loving, Veronica",ELA,Winter High School,41,0,27,0,44.65,0,14,108,8,0,0,0,241,11,16,62,6,Prime
+"Martinez, Chance",ELA,Winter High School,89,0,21,0,38.6778,0,71,899,17,0,0,6,2,4,0,5,6,Prime
+"Carter, Charles",ELA,Winter High School,18,0,10,0,32.1528,0,30,459,22,0,0,0,10,52,0,2,10,Prime
+"Moline, Kalene",ELA,Winter High School,0,50,0,3,0,31.15,6,0,9,0,0,0,0,0,0,0,0,Prime
+"Carlson, Mark",ELA,Winter High School,84,0,27,0,24.7778,0,96,349,495,0,0,12,2,0,0,5,7,Prime
+"Rea, Kali",Science,Winter High School,107,0,9,0,16.2917,0,41,595,8,0,0,0,0,0,0,18,4,Prime
+"Schulz, April",ELA,Winter High School,22,0,16,0,13.275,0,70,196,123,2,0,5,0,0,0,139,1,Prime
+"Kennon, Rachelle",Special Education,Winter High School,19,0,20,0,11.8917,0,42,309,64,0,4,0,1,0,0,55,0,Prime
+"Zocchi, Abigail",Science,Winter High School,37,0,2,0,3.4333,0,19,151,4,0,0,0,0,0,0,0,0,Prime
+"Cotto IV, Sophie",ELA,Winter High School,0,12,0,3,0,2.7611,4,0,17,0,0,0,0,3,0,0,0,Prime
+"Vazquez, Ezekial",ELA,Winter High School,0,0,0,0,0,0,12,0,3,0,0,0,0,0,0,0,0,Prime
+"Davies, Kiana",Other,Winter High School,0,0,0,0,0,0,16,0,5,0,0,0,0,0,0,0,0,Prime
+"Woods, Connor",ELA,Winter High School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Prime
+"Tehero, Madysen",ELA,Winter High School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Free
+"Marrufo, Jordan",ELA,Winter High School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,Prime
+"Corral, Javier",ELA,Winter High School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,Prime
+"el-Salameh, Labeeb",ELA,Winter High School,0,0,0,0,0,0,5,0,5,0,0,0,0,0,0,0,0,Prime
+"al-Sarah, Kamaal",Other,Winter High School,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,Prime
+"Florez, Ciana",Social Studies,Winter High School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Prime
+"Ware, Danny",Social Studies,Winter High School,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,Prime
+"Kim, Alan",ELA,Sunny Middle School,118,0,45,0,223.3333,0,158,2759,76,0,0,4,117,35,2,524,75,NA
+"Richter, Cheyenne",ELA,Sunny Middle School,89,0,56,0,184.5722,0,222,3055,83,0,0,1,5,23,0,132,53,NA
+"Walker, Cameron",ELA,Sunny Middle School,126,0,22,0,169.2028,0,170,2270,32,0,241,52,22,175,7,9,35,NA
+"Sandoval, Manuel",ELA,Sunny Middle School,75,0,23,0,159,0,281,1573,28,0,21,6,748,39,10,141,82,NA
+"Minter, Deon",ELA,Sunny Middle School,122,0,23,0,155.9944,0,113,1908,25,0,0,8,64,39,25,62,75,NA
+"el-Mahdavi, Aanisa",ELA,Sunny Middle School,69,0,21,0,143.8139,0,101,1749,27,0,0,181,25,70,3,69,44,NA
+"Chavarria, Raeven",Social Studies,Sunny Middle School,139,0,28,0,132.1111,0,63,1880,29,0,0,23,19,4,0,39,12,NA
+"Reish, Briana",ELA,Sunny Middle School,60,0,15,0,108.1389,0,110,1427,33,15,53,18,29,46,3,200,24,NA
+"Medina, Jackie",ELA,Sunny Middle School,8,72,7,15,3.0167,98.0278,20,65,81,0,0,0,0,59,0,2,0,NA
+"Saunders, Makayla",ELA,Sunny Middle School,116,0,25,0,76.6389,0,203,1013,30,0,19,122,168,146,83,166,30,NA
+"Nunez, Britanie",Other,Sunny Middle School,53,20,28,7,47.0889,26.5778,182,970,93,0,8,83,2,30,0,174,5,NA
+"Palo, Collin",ELA,Sunny Middle School,82,0,11,0,73.3639,0,77,947,23,0,21,4,2,47,0,84,364,NA
+"Konneh, Sydnee",Social Studies,Sunny Middle School,114,0,28,0,68.6778,0,130,2535,17,0,9,53,1,0,0,26,7,NA
+"al-Semaan, Saabiqa",ELA,Sunny Middle School,66,0,11,0,65.4111,0,22,1143,16,3,0,0,1,197,0,21,6,NA
+"Wonnacott, Alixandria",ELA,Sunny Middle School,57,0,18,0,62.7444,0,89,1020,73,0,0,1,17,47,0,263,15,NA
+"Gutierrez, Brandon",ELA,Sunny Middle School,115,0,11,0,53.4028,0,50,998,21,0,11,9,219,21,116,98,73,NA
+"al-Jalali, Zaidaan",Other,Sunny Middle School,40,24,12,3,33.4833,19.3194,100,552,65,0,28,2,1,1,0,175,2,NA
+"Atene, Nikki",Science,Sunny Middle School,134,0,7,0,44.9194,0,37,509,9,0,0,2,14,1,0,32,4,NA
+"Cabrera, Ciana",ELA,Sunny Middle School,57,0,22,0,37.7361,0,70,775,13,0,0,4,2,1,0,1,0,NA
+"Moore, Tevion",ELA,Sunny Middle School,0,66,0,18,0,36.5194,22,0,82,0,0,0,0,5,0,0,0,NA
+"Sandoval, Brandon",ELA,Sunny Middle School,4,21,5,2,6.7639,21.1083,32,52,45,0,0,0,8,0,0,16,0,NA
+"al-Mansouri, Maajid",Social Studies,Sunny Middle School,8,0,42,0,16.3972,0,82,545,143,13,0,8,0,17,0,47,1,NA
+"Richards, Austin",Special Education,Sunny Middle School,0,18,0,7,0,14.6528,26,0,67,0,0,0,0,4,0,0,0,NA
+"Kuykendoll, Lonnie",Science,Sunny Middle School,0,8,0,40,0,12.7111,8,0,143,0,0,0,0,17,0,0,0,NA
+"Francisco, Rick",ELA,Sunny Middle School,43,0,5,0,11.1667,0,48,236,9,0,0,1,0,0,0,7,2,NA
+"Tunnell, Autumn",Social Studies,Sunny Middle School,22,0,2,0,10.3778,0,73,249,6,0,0,3,0,0,0,3,0,NA
+"al-Ahmed, Salmaan",Science,Sunny Middle School,22,0,1,0,5.5972,0,15,86,3,0,0,4,0,1,0,5,0,NA
+"al-Masood, Hibbaan",Science,Sunny Middle School,21,0,1,0,4.7056,0,7,0,0,0,0,0,0,0,0,13,0,NA
+"Strole, Victoria",Special Education,Sunny Middle School,2,0,2,0,2.4722,0,14,44,15,0,0,0,0,0,0,5,3,NA
+"Ojeda, Yadira",Other,Sunny Middle School,3,0,3,0,1.4667,0,21,19,19,0,0,0,0,0,0,4,6,NA
+"Sanchez, Rocio",Science,Sunny Middle School,1,0,2,0,1.4667,0,5,27,20,0,0,0,0,0,0,13,0,NA
+"Godwin, Cecilia",Other,Sunny Middle School,4,0,1,0,1.4222,0,19,5,0,0,0,0,0,0,0,1,0,NA
+"Sam, Patricia",Special Education,Sunny Middle School,0,5,0,1,0,0.8722,11,0,33,0,0,0,0,18,0,0,0,NA
+"Orwick, Jonathan",ELA,Sunny Middle School,0,0,0,0,0,0,151,0,23,0,0,0,0,0,0,0,0,NA
+"Anderson, Austin",ELA,Sunny Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Hang, Richard",ELA,Sunny Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Lasota, Kristin",ELA,Sunny Middle School,0,0,0,0,0,0,45,0,23,0,0,0,0,0,0,0,0,NA
+"al-Pirani, Kulthum",Other,Sunny Middle School,0,0,0,0,0,0,16,0,23,0,0,0,0,0,0,0,0,NA
+"el-Kassem, Kabeer",ELA,Sunny Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Medina, Christian",Special Education,Sunny Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Millard, Izabella",Science,Sunny Middle School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,NA
+"Volkland, Sierra",Social Studies,Sunny Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Zamarripa Cortes, Neil",Social Studies,Sunny Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"el-Mahmud, Suhaila",Social Studies,Sunny Middle School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,NA
+"el-Mahdi, Taalib",Other,Sunny Middle School,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,NA
+"el-Mahdi, Taalib",Other,Sunny Middle School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,NA
+"Black, Kara",ELA,Candle High School,232,0,98,0,311.7556,0,156,5570,168,0,48,49,115,5,12,61,105,Prime
+"Hamilton, Joshua",ELA,Candle High School,117,0,82,0,177.4,0,107,3431,117,37,8,75,27,10,0,63,85,Prime
+"Cotier, Fiona",ELA,Candle High School,117,0,31,0,129.95,0,120,2109,53,8,87,8,4,1,0,32,15,Prime
+"Ling, Luke",ELA,Candle High School,104,0,27,0,114.7778,0,66,2048,54,0,8,5,0,9,0,25,34,Prime
+"Lee, Timothy",ELA,Candle High School,95,0,14,0,76.5167,0,46,1489,17,0,0,1,12,170,0,70,58,Prime
+"Crockett, Shannon",ELA,Candle High School,128,0,22,0,54.5944,0,37,1195,37,0,0,0,2,10,0,26,4,Free
+"Smith, Frank",ELA,Candle High School,84,0,30,0,48.0611,0,37,683,32,0,0,0,1,8,0,20,2,Prime
+"Kajiwara, Kai",ELA,Candle High School,0,55,0,5,0,46.575,8,0,21,0,0,0,0,1,0,0,0,Prime
+"Brown, Crystal",Special Education,Candle High School,12,0,32,0,41.725,0,115,1119,104,0,0,16,5,0,0,18,1,Prime
+"Rashad, Janise",Special Education,Candle High School,0,11,0,29,0,27.4639,12,0,104,0,0,0,0,0,0,0,0,Prime
+"Valdez, Erika",ELA,Candle High School,77,0,4,0,25.625,0,10,481,5,0,0,0,2,1,0,7,4,Prime
+"Corbitt, Keionna",ELA,Candle High School,0,27,0,11,0,21.6722,5,0,79,0,0,0,0,1,0,0,0,Prime
+"Esparsen, Javiar",Social Studies,Candle High School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"Lizer, Shyanne",ELA,Candle High School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"Jarrell, Mackenzie",ELA,Candle High School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,Prime
+"Reynolds-Snyder, Dmitri",ELA,Candle High School,0,0,0,0,0,0,33,0,3,0,0,0,0,0,0,0,0,Prime
+"Walker, Lakim",Science,Candle High School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Prime
+"Henry, Alexandria",ELA,Candle High School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Prime
+"Arzapalo, Armando",ELA,Candle High School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"el-Rahaman, Musheera",ELA,Bell Middle School,107,17,131,29,596.9278,45.4639,780,8885,300,19,487,464,1636,58,274,201,53,NA
+"el-Nouri, Mufeeda",ELA,Bell Middle School,121,10,114,12,366.2861,31.6222,389,7077,292,0,0,862,32,5,0,1053,30,NA
+"Johnston, Cameron",ELA,Bell Middle School,10,121,12,114,31.6222,358.1194,104,692,292,0,14,49,36,5,12,0,0,NA
+"Thomas, Meciah",ELA,Bell Middle School,88,0,120,0,272.5806,0,369,6128,137,0,16,186,114,46,8,264,836,NA
+"Medina, Lucia",ELA,Bell Middle School,0,47,0,93,0,132.5528,17,0,399,0,0,0,0,2,0,0,0,NA
+"al-Rahim, Hissa",ELA,Bell Middle School,70,0,40,0,100.3611,0,144,2660,57,0,0,41,34,22,3,132,2,NA
+"Mcwee, Kayla",Social Studies,Bell Middle School,122,0,13,0,97.1556,0,175,2613,37,0,44,31,57,2,0,77,10,NA
+"Thull, Alicia",Social Studies,Bell Middle School,124,0,24,0,76.3389,0,155,1145,16,0,86,19,27,1,2,76,12,NA
+"Kanack, Julianna",ELA,Bell Middle School,12,0,22,0,39.7139,0,42,555,62,0,0,0,338,0,1,0,0,NA
+"Sullivan, Wayne",Social Studies,Bell Middle School,86,0,15,0,37.6389,0,90,668,21,0,0,0,8,18,2,79,2,NA
+"Vo, Samuel",ELA,Bell Middle School,12,0,32,0,23.3528,0,44,1151,115,0,0,0,3,0,1,11,0,NA
+"Santillano, Daniela",Social Studies,Bell Middle School,63,0,8,0,23.3083,0,11,381,7,0,0,3,8,28,1,42,6,NA
+"Sanchez, Autumn",ELA,Bell Middle School,9,0,27,0,21.3833,0,19,476,82,0,0,0,22,0,0,33,3,NA
+"Sands, Matthew",Science,Bell Middle School,7,0,17,0,15.8361,0,24,319,97,0,4,26,115,0,0,0,0,NA
+"Cheek, Preston",ELA,Bell Middle School,12,0,14,0,13.6472,0,20,384,41,0,0,1,19,0,0,14,9,NA
+"Ratts, Damond",Social Studies,Bell Middle School,49,0,9,0,12.7361,0,21,142,7,0,0,2,29,2,26,19,0,NA
+"Archuleta, Byron",ELA,Bell Middle School,0,0,0,0,0,0,40,0,8,0,0,0,0,0,0,0,0,NA
+"al-Pirani, Kulthum",Other,Bell Middle School,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,NA
+"Hernandez-Robles, Angelina",ELA,Bell Middle School,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,NA
+"Mckinney, Breaja",Social Studies,Bell Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Lowder, John",ELA,Board High School,83,51,26,10,234.5417,47.9889,167,2505,45,12,147,171,49,56,0,153,66,NA
+"Bussey, Brittney",ELA,Board High School,95,0,40,0,235.8,0,127,3116,92,0,202,19,9,11,4,58,20,NA
+"Chan, Medha",ELA,Board High School,106,0,70,0,234.4444,0,479,4331,145,0,10,56,31,146,0,65,116,NA
+"Iu, Karie",ELA,Board High School,119,121,39,27,138.1083,63.6639,485,3122,110,29,15,55,23,146,1,49,135,NA
+"Noy, Gary",ELA,Board High School,70,20,35,4,175.7833,12.9806,58,2305,87,10,63,121,205,26,5,196,55,NA
+"Stennis, Austin",ELA,Board High School,105,17,19,4,144.8028,22.1833,107,889,69,5,20,0,2060,113,264,74,491,NA
+"Mckenzie, Briana",ELA,Board High School,54,54,9,16,34.9167,123.0889,146,454,33,7,28,36,0,5,0,4,0,NA
+"Milliner, Alexus",ELA,Board High School,0,74,0,33,0,154.6667,27,0,123,0,0,0,0,10,0,0,0,NA
+"Parmiter, Tyra",ELA,Board High School,125,0,25,0,136.6194,0,149,2014,99,0,140,150,3,3,0,13,22,NA
+"Shumpert, Jalen",ELA,Board High School,62,22,67,17,88.3444,35.3361,132,2322,156,0,13,4,2,12,0,18,5,NA
+"Sowrirajan, Jesse",ELA,Board High School,33,0,1,0,94.3472,0,22,1584,43,0,0,0,64,1,55,10,42,NA
+"Sarabia, Briana",ELA,Board High School,93,0,20,0,92.3861,0,140,1396,22,0,0,0,3,26,2,61,75,NA
+"Burns, Jerald",ELA,Board High School,64,12,9,1,76.4167,5.0722,50,773,119,0,0,11,1,23,0,21,30,NA
+"Mendoza, Miki",ELA,Board High School,32,18,50,12,57.6583,12.0778,316,907,145,0,4,9,1,55,0,3,0,NA
+"Ruybal, Brandon",ELA,Board High School,83,0,29,0,67.925,0,120,831,173,0,5,4,11,11,6,35,7,NA
+"Hunkar, Kourtney",ELA,Board High School,27,0,5,0,52.5056,0,70,575,36,0,0,0,0,0,0,8,2,NA
+"Wilson, Viola",ELA,Board High School,33,15,22,3,45.4667,4.7306,36,1311,109,0,0,6,1,3,0,33,4,NA
+"el-Molla, Haazima",ELA,Board High School,74,4,7,1,46.9667,1.2556,24,1487,22,0,0,0,1,1,0,39,2,NA
+"Barr, Morgan",ELA,Board High School,0,51,0,14,0,47.6917,17,0,83,0,0,0,0,0,0,0,0,NA
+"al-Yamin, Layaali",ELA,Board High School,0,23,0,11,0,46.6,14,0,57,0,0,0,0,18,0,0,0,NA
+"Harbert, Nathdaniel",ELA,Board High School,86,0,22,0,45.3806,0,3,1136,31,0,0,0,10,24,1,13,8,NA
+"Trujillo, Julio",ELA,Board High School,0,16,0,16,0,39.2056,15,0,65,0,0,0,0,0,0,0,0,NA
+"el-Noori, Saleema",ELA,Board High School,0,33,0,5,0,34.5694,19,0,59,0,0,0,0,12,0,0,0,NA
+"Birchall, Wesley",ELA,Board High School,0,19,0,25,0,32.3444,14,0,100,0,0,0,0,3,0,0,0,NA
+"el-Hosseini, Nawwaara",ELA,Board High School,20,0,7,0,29.7389,0,25,254,23,0,0,3,1,0,0,136,6,NA
+"Spangler, Madelyn",Social Studies,Board High School,53,0,14,0,26.5083,0,36,275,12,0,0,0,0,1,0,7,2,NA
+"el-Tawil, Sadoon",ELA,Board High School,79,0,16,0,22.5056,0,58,477,19,0,0,0,0,2,0,33,12,NA
+"Garcia, Jonathan",ELA,Board High School,40,0,4,0,20.1417,0,11,155,8,0,0,0,0,1,0,125,8,NA
+"Juniel, Shaawn",ELA,Board High School,43,0,2,0,19.5639,0,25,267,9,0,0,0,0,1,0,9,0,NA
+"Kirby, Jacob",Social Studies,Board High School,53,0,4,0,16.175,0,29,143,6,0,0,52,2,0,0,13,0,NA
+"Ortiz, Deanna",ELA,Board High School,0,38,0,9,0,12.55,7,0,31,0,0,0,0,24,0,0,0,NA
+"el-Hakeem, Wajdi",ELA,Board High School,0,15,0,3,0,6.2694,1,0,11,0,0,0,0,0,0,0,0,NA
+"Henry, Ashley",Social Studies,Board High School,20,0,4,0,4.6833,0,22,61,6,0,0,0,0,6,0,58,2,NA
+"al-Dallal, Naqiyya",Social Studies,Board High School,19,0,1,0,3.7111,0,13,103,7,0,0,1,0,0,0,0,0,NA
+"Romero, Johnpaul",Social Studies,Board High School,13,0,3,0,2.175,0,3,39,15,0,0,0,0,0,0,1,0,NA
+"Largo, Tanisha",World Languages,Board High School,0,6,0,3,0,1.2806,2,0,87,0,0,0,0,0,0,0,0,NA
+"Marquez, Javier",Social Studies,Board High School,1,0,1,0,0.1806,0,13,1,0,0,0,0,0,0,0,0,0,NA
+"Gray, Nasstaja",Social Studies,Board High School,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,NA
+"Davis, Rhianna",Special Education,Board High School,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,NA
+"al-Ahmed, Raaji",ELA,Board High School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Wilder, William",Other,Board High School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Villares, Melissa",Special Education,Board High School,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,NA
+"Busby, Jasmin",Science,Board High School,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,NA
+"Tran, Simone",Science,Board High School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Suen, Emmitt",Science,Board High School,0,0,0,0,0,0,26,0,5,0,0,0,0,0,0,0,0,NA
+"Walters, Brittany",Social Studies,Board High School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Begaye, Alaura",Social Studies,Board High School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Sandoval, Silencio",Special Education,Board High School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Davis, Shahzad",ELA,Hill High School,21,0,2,0,18.3722,0,24,14,9,0,0,0,6,0,0,8,10,NA
+"Leach, Jacob",Social Studies,Hill High School,19,0,1,0,3.1417,0,40,57,29,0,0,0,0,8,0,3,0,NA
+"Porter, Natnael",Other,Hill High School,5,0,2,0,1.775,0,14,21,9,0,2,0,0,0,0,11,1,NA
+"Trader-Bankston, Frenice",ELA,Hill High School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"al-Bagheri, Hamdoona",Other,Hill High School,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,NA
+"Dickerson, Aaron",ELA,Hill High School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Le, Jason",ELA,Hill High School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Briones, Gabriel",ELA,Hill High School,0,0,0,0,0,0,13,0,14,0,0,0,0,0,0,0,0,NA
+"al-Omer, Ismad",Science,Hill High School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"el-Mian, Faheem",Special Education,Hill High School,0,0,0,0,0,0,9,0,1,0,0,0,0,0,0,0,0,NA
+"Torres, Jesse",ELA,Lock Middle School,92,0,62,0,483.625,0,266,4680,66,35,13,233,956,764,34,450,350,Prime
+"Eagle, Brittany",ELA,Lock Middle School,107,0,61,0,349.2639,0,182,4805,109,0,124,101,354,19,3,225,588,Prime
+"Montoya, Miranda",ELA,Lock Middle School,128,0,64,0,326.8167,0,140,4813,59,0,149,206,2,29,2,51,5,Prime
+"Delgado, Morgan",Science,Lock Middle School,156,0,100,0,310.4028,0,331,8477,119,0,0,11,2,10,0,82,6,Prime
+"Begay, Steven",ELA,Lock Middle School,84,0,32,0,185.5083,0,118,2461,38,17,11,10,89,84,6,49,11,Prime
+"Graham, Ebony",ELA,Lock Middle School,99,0,21,0,140.2778,0,92,2661,24,0,431,201,15,10,2,39,13,Prime
+"Lopez, Jessie",ELA,Lock Middle School,120,0,19,0,114.9917,0,260,2079,61,0,0,11,16,17,0,180,19,Prime
+"Fong, Julianna",ELA,Lock Middle School,78,0,11,0,97.8528,0,46,1385,15,7,0,54,2,29,1,76,6,Prime
+"Miles, Roemello",Science,Lock Middle School,137,0,51,0,81.9028,0,104,2372,66,0,0,0,1,5,0,36,3,Prime
+"Charry, Fuad",ELA,Lock Middle School,77,0,20,0,78.5667,0,62,3038,33,0,0,1,10,78,1,39,20,Prime
+"Jimenez, Miguel",ELA,Lock Middle School,23,39,2,6,8.5778,37.5361,53,225,42,0,0,0,12,46,1,32,3,Prime
+"Tyrrell, Cailin",Special Education,Lock Middle School,39,0,6,0,37.5361,0,11,637,42,0,0,9,7,36,1,199,37,Prime
+"Skinner, Kaitlyn",ELA,Lock Middle School,30,0,4,0,28.2056,0,56,173,7,0,0,3,6,0,0,41,3,Prime
+"Diaz Hernandez, Celina",Special Education,Lock Middle School,0,30,0,4,0,28.2056,22,0,7,0,0,0,0,0,0,0,0,Prime
+"el-Meer, Jadeeda",ELA,Lock Middle School,85,0,4,0,22.025,0,18,332,3,0,0,0,0,7,0,5,5,Prime
+"Fernandez, Kelsey",ELA,Lock Middle School,67,0,6,0,11.2444,0,20,282,6,0,0,0,0,0,0,6,1,Prime
+"Martinez, Charles",Special Education,Lock Middle School,0,67,0,6,0,11.2444,12,0,6,0,0,0,0,0,0,0,0,Prime
+"Davis, Aarika",ELA,Lock Middle School,21,0,1,0,3.1194,0,14,0,0,0,0,0,0,0,0,1,0,Prime
+"Johnson, Kathy",Special Education,Lock Middle School,5,0,3,0,2.9722,0,19,34,8,0,0,1,1,17,0,6,1,Prime
+"Mock, An",Social Studies,Lock Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Prime
+"Blackhorse, Silvano",ELA,Lock Middle School,0,0,0,0,0,0,28,0,3,0,0,0,0,0,0,0,0,Prime
+"Davis, Aarika",ELA,Lock Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,Free
+"al-Saeed, Sakeena",ELA,Lock Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Prime
+"Landeros, Stephanie",Special Education,Lock Middle School,0,0,0,0,0,0,9,0,9,0,0,0,0,0,0,0,0,Prime
+"Folsom, Chellsea",ELA,Lock Middle School,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,Prime
+"Phillips, Harry",Social Studies,Lock Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Prime
+"el-Massoud, Naazim",Science,Lock Middle School,0,0,0,0,0,0,9,0,2,0,0,0,0,0,0,0,0,Prime
+"Moss, Serena",Science,Lock Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Prime
+"Kroonenberg, Tarissa",Science,Lock Middle School,0,0,0,0,0,0,8,0,3,0,0,0,0,0,0,0,0,Prime
+"Barstow, Erich",Science,Lock Middle School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,Prime
+"Harris, Kristin",Science,Lock Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Prime
+"Atencio, Fatima",ELA,Lock Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Prime
+"Valdez, Callison",ELA,Stalone High School,117,0,125,0,162.3389,0,57,4838,141,0,0,3,6,31,0,72,76,NA
+"al-Zia, Fat'hi",Other,Stalone High School,145,0,55,0,159.0167,0,115,3575,110,0,0,7,5,16,0,10,32,NA
+"Miranda, Jasmine",ELA,Stalone High School,89,0,14,0,70.5083,0,107,1051,63,2,18,68,175,139,64,48,25,NA
+"Callahan, Wallace",ELA,Stalone High School,0,67,0,14,0,35.4167,4,0,40,0,0,0,0,1,0,0,0,NA
+"al-Nouri, Shaamikh",Other,Stalone High School,25,0,23,0,32.3472,0,93,629,51,7,0,29,0,2,0,215,2,NA
+"Gonzalez Avalos, Cintya",Other,Stalone High School,0,19,0,26,0,31.0417,38,0,96,0,0,0,0,1,0,0,0,NA
+"Rocha, Piper",Other,Stalone High School,71,0,5,0,24.5861,0,16,565,6,0,0,0,2,137,0,4,22,NA
+"Pelletier, Andrew",ELA,Stalone High School,54,0,6,0,21.2333,0,23,506,11,0,4,3,0,68,0,32,4,NA
+"Valadez Guerra, Omar",ELA,Stalone High School,22,0,1,0,12.7583,0,7,646,53,0,0,0,0,0,0,4,1,NA
+"al-Ebrahim, Rashaad",ELA,Stalone High School,38,0,3,0,11,0,34,166,4,0,0,0,0,1,0,14,8,NA
+"Freeland, Lisa",Other,Stalone High School,14,0,7,0,10.6083,0,119,202,13,4,2,4,0,7,0,5,9,NA
+"Griggs, Jasmine",Other,Stalone High School,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,NA
+"Soto-Oliveros, Brandon",ELA,Stalone High School,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,NA
+"Rains, Justin",ELA,Stalone High School,0,0,0,0,0,0,8,0,3,0,0,0,0,0,0,0,0,NA
+"el-Moghaddam, Tahleela",ELA,Stalone High School,0,0,0,0,0,0,15,0,4,0,0,0,0,0,0,0,0,NA
+"Owsley, Mackenzie",Social Studies,Stalone High School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Duran, Nicole",ELA,Stalone High School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Gill, Dylan",Science,Stalone High School,0,0,0,0,0,0,11,0,6,0,0,0,0,0,0,0,0,NA
+"Wise, Josephine",Social Studies,Stalone High School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Gonzales, Trista",Science,Stalone High School,0,0,0,0,0,0,3,0,1,0,0,0,0,0,0,1,0,NA
+"Sweetwater, Justin",ELA,Ocean Middle School,146,0,99,0,555.8694,0,292,5501,168,48,1094,757,1244,220,751,983,143,NA
+"Callahan, John Anthony",ELA,Ocean Middle School,94,0,30,0,213.5417,0,224,2427,88,12,188,219,145,98,1,151,25,NA
+"al-Mirza, Haashid",ELA,Ocean Middle School,151,27,25,7,158.5889,28.1278,188,2136,42,0,0,5,9,8,0,16,16,NA
+"Jumpe, Brittany",ELA,Ocean Middle School,71,0,75,0,173.3167,0,193,2591,173,56,73,347,10,6,0,111,101,NA
+"Reyes Gutierrez, Karley",ELA,Ocean Middle School,66,0,42,0,126.0333,0,83,2084,49,0,5,11,32,247,1,31,18,NA
+"Eurich, Cheyenne",ELA,Ocean Middle School,0,36,0,14,0,120.5056,125,0,53,0,2,0,0,90,0,0,0,NA
+"Hayes, Laraena",ELA,Ocean Middle School,47,28,37,17,79,36.9778,82,1495,83,0,0,5,5,16,0,160,5,NA
+"al-Zaman, Tawheeda",ELA,Ocean Middle School,69,0,39,0,97.6278,0,67,1807,60,0,1,7,19,64,8,166,6,NA
+"Carter, Joseph",ELA,Ocean Middle School,46,0,83,0,91.8806,0,141,2910,113,0,0,4,5,3,3,9,9,NA
+"Fisher-Jones, Jordan",Science,Ocean Middle School,110,0,30,0,89.7417,0,125,1102,25,0,61,246,1,10,1,119,4,NA
+"Benally, Landon",ELA,Ocean Middle School,110,0,29,0,69.2556,0,69,1778,117,0,0,1,0,3,0,37,9,NA
+"Santagata, Blake",Other,Ocean Middle School,29,26,18,2,41.5194,8.1917,15,761,85,1,0,2,0,3,0,279,10,NA
+"Tapia, Drew",ELA,Ocean Middle School,132,0,37,0,49.5417,0,56,1469,50,0,0,0,6,78,3,80,6,NA
+"Garcia, Erinn",Other,Ocean Middle School,237,0,22,0,46.4083,0,115,1041,32,0,6,49,0,35,0,39,0,NA
+"Stieff, Ruger",Other,Ocean Middle School,91,0,40,0,42.4056,0,81,1285,93,0,0,11,0,4,0,51,7,NA
+"Cornelius, Jennifer",ELA,Ocean Middle School,70,0,19,0,37.5861,0,41,951,80,0,5,2,1,1,0,58,3,NA
+"Fleming, Terrance",Social Studies,Ocean Middle School,141,0,10,0,36.0778,0,43,624,14,8,3,26,3,3,3,102,2,NA
+"Young, Armand",ELA,Ocean Middle School,58,0,35,0,35.6194,0,60,203,34,0,0,4,0,18,0,13,0,NA
+"Sewald, Raul",ELA,Ocean Middle School,86,0,6,0,34.1833,0,29,501,13,0,0,2,1,2,0,10,18,NA
+"Freeman, Shaentteria",ELA,Ocean Middle School,27,0,7,0,28.1278,0,32,554,13,0,0,0,0,0,0,63,4,NA
+"French, Anna",Science,Ocean Middle School,101,0,7,0,22.8944,0,22,463,4,0,0,8,1,5,0,24,5,NA
+"Kiley, Lauren",Social Studies,Ocean Middle School,111,0,10,0,21.4722,0,12,504,7,0,0,0,2,6,1,32,2,NA
+"Aguilar, Raudel",Social Studies,Ocean Middle School,30,32,5,5,9.2111,7.1639,12,115,10,0,9,26,2,1,0,4,2,NA
+"Char, Paula",ELA,Ocean Middle School,53,0,11,0,13.175,0,37,143,32,0,0,0,32,4,0,17,1,NA
+"Sein-Ware, Ace",Special Education,Ocean Middle School,0,28,0,14,0,8,9,0,54,0,0,0,0,12,0,0,0,NA
+"Molina, Cleatus",ELA,Ocean Middle School,0,17,0,2,0,6.3,8,0,26,0,0,0,0,41,0,0,0,NA
+"Hernandez, Stevie",ELA,Ocean Middle School,0,17,0,2,0,6.3,10,0,26,0,19,0,0,41,0,0,0,NA
+"Yang, Julienne",ELA,Ocean Middle School,32,0,6,0,5.725,0,22,114,13,0,0,0,0,0,0,4,0,NA
+"Rea, Sabrina",ELA,Ocean Middle School,32,0,4,0,5.2056,0,32,141,7,0,0,0,0,32,0,10,1,NA
+"el-Gaber, Mahdeeya",Science,Ocean Middle School,34,0,8,0,5.1361,0,31,82,11,0,0,0,0,1,0,9,1,NA
+"Robinson, Tiana",ELA,Ocean Middle School,30,0,3,0,4.7972,0,10,113,7,0,0,0,0,9,0,2,0,NA
+"Young, Thuc",Social Studies,Ocean Middle School,36,0,6,0,4.4028,0,15,176,5,0,0,0,0,0,0,15,0,NA
+"Robertson, Channey",Social Studies,Ocean Middle School,0,25,0,7,0,4.2528,4,0,14,0,0,0,0,3,0,0,0,NA
+"Miller, Cheyanna",ELA,Ocean Middle School,0,15,0,1,0,2.5389,5,0,7,0,0,0,0,0,0,0,0,NA
+"Stevens, Rachel",Science,Ocean Middle School,26,0,5,0,2.5389,0,9,110,2,0,0,0,0,0,0,4,0,NA
+"Byrd, Fahrraan",Social Studies,Ocean Middle School,0,15,0,2,0,2.5167,4,0,7,0,0,0,0,1,0,0,0,NA
+"York, Cassondra",Other,Ocean Middle School,0,15,0,2,0,2.4167,4,0,7,0,0,0,0,9,0,0,0,NA
+"Soh, Boyu",World Languages,Ocean Middle School,19,0,11,0,1.9056,0,44,47,4,0,0,0,0,0,0,0,0,NA
+"Mitchell, Amanda",Other,Ocean Middle School,5,0,2,0,0.3333,0,14,18,5,0,0,0,0,0,0,0,0,NA
+"Clark, Addison",Other,Ocean Middle School,4,0,1,0,0.1917,0,3,15,3,0,0,0,0,0,0,0,0,NA
+"Ruiz, Jazmine",Science,Ocean Middle School,5,0,5,0,0.1778,0,8,11,2,0,0,0,0,0,0,0,0,NA
+"al-Salim, Saamiqa",Other,Ocean Middle School,1,0,1,0,0.0833,0,12,5,2,0,0,0,0,0,0,0,0,NA
+"Lasota, Kristin",ELA,Ocean Middle School,1,0,1,0,0.0472,0,45,5,7,0,1,0,0,0,0,0,0,NA
+"al-Haq, Mahmooda",Special Education,Ocean Middle School,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,NA
+"Simental, Tyler",ELA,Ocean Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Anderson, Simcha",Math,Ocean Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Carver, Megan",Other,Ocean Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Mancilla, Amy",Special Education,Ocean Middle School,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,NA
+"el-Fahs, Israa",Other,Ocean Middle School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Biggs, Hannah",ELA,Ocean Middle School,0,0,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,NA
+"Myers, Maegen",ELA,Honda Middle School,78,0,77,0,429.4889,0,151,4341,103,47,36,177,1373,357,111,158,455,NA
+"Stevens, Deljerro",ELA,Honda Middle School,90,0,95,0,377.7139,0,114,5804,188,18,4,284,9,543,1,811,41,NA
+"Martinez, Regal",ELA,Honda Middle School,110,0,34,0,256.15,0,72,2228,39,0,74,61,478,454,167,142,149,NA
+"Novak, Tyler",ELA,Honda Middle School,118,0,29,0,251.3083,0,305,2743,75,10,215,88,2911,217,1905,136,388,NA
+"Crowther, Alexandria",ELA,Honda Middle School,74,0,46,0,226.2917,0,121,2703,85,20,319,403,16,18,0,585,84,NA
+"Dandurand, Victoria",ELA,Honda Middle School,0,54,0,44,0,206.9583,151,0,180,0,239,0,0,20,0,0,0,NA
+"Herman, Joshua",ELA,Honda Middle School,63,0,28,0,110.1222,0,41,1778,38,0,0,2,4,17,0,79,15,NA
+"Cloud, Andres",ELA,Honda Middle School,58,0,34,0,77.6,0,95,1812,58,5,1,205,0,8,0,96,50,NA
+"al-Saleh, Taalib",ELA,Honda Middle School,78,0,24,0,63.4083,0,85,1491,42,0,0,9,3,9,0,33,12,NA
+"Wang, Randall",Science,Honda Middle School,147,0,12,0,47.5639,0,47,1126,13,0,0,0,1,11,0,166,4,NA
+"Avila-Brewster, Yubisela",Science,Honda Middle School,139,0,19,0,36.2639,0,47,831,22,4,0,10,1,7,0,33,4,NA
+"Martinez, Regal",ELA,Honda Middle School,38,0,2,0,18.7278,0,32,187,0,0,16,21,0,0,0,0,0,NA
+"Saunders, Damian",ELA,Honda Middle School,5,0,4,0,15.0556,0,24,58,24,0,0,1,11,1,0,86,0,NA
+"Davis, Alexandrea",Special Education,Honda Middle School,0,25,0,2,0,7.6889,1,0,7,0,0,0,0,1,0,0,0,NA
+"el-Moghaddam, Sabriyya",ELA,Honda Middle School,22,0,2,0,5.4111,0,14,86,7,0,0,0,1,1,0,0,0,NA
+"Pagaduan, Daniel",Special Education,Honda Middle School,0,22,0,2,0,4.7806,4,0,7,0,0,0,0,0,0,0,0,NA
+"Saiz, Steven",ELA,Honda Middle School,14,0,1,0,2.5583,0,15,78,9,0,0,0,0,0,0,1,0,NA
+"Bowman, Emma",ELA,Honda Middle School,1,0,2,0,0.0667,0,12,0,0,0,0,0,0,0,0,0,0,NA
+"el-Sattar, Abdur Raqeeb",Other,Honda Middle School,1,0,1,0,0.0333,0,12,0,0,0,0,0,0,0,0,0,0,NA
+"Gulley, Stephanie",ELA,Honda Middle School,0,0,0,0,0,0,216,0,0,0,0,0,0,0,0,0,0,NA
+"Sandoval, Manuel",ELA,Honda Middle School,0,0,0,0,0,0,281,0,0,0,0,0,0,0,0,0,0,NA
+"Gerlach, Jack",ELA,Honda Middle School,0,0,0,0,0,0,11,0,15,0,0,0,0,0,0,0,0,NA
+"Daniels, Fredlyn",ELA,Honda Middle School,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,NA
+"Wright-Silby, Adam",Other,Honda Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Moran, Travis",ELA,Honda Middle School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Melendez, Manuel",Social Studies,Honda Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Adams, Destinie",World Languages,Honda Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Kim, Pamela",ELA,Highway Middle School,74,0,90,0,723.0944,0,370,6090,319,49,0,59,61,8,16,649,178,Prime
+"Welford, Eshe",ELA,Highway Middle School,61,0,152,0,690.2806,0,743,9255,198,77,16,50,116,93,0,382,869,Prime
+"al-Sader, Husni",ELA,Highway Middle School,67,20,73,24,625.6361,4.7,231,8807,1041,10,0,187,4,11,0,494,182,Prime
+"Kang, Hinna",Social Studies,Highway Middle School,131,0,145,0,360.6417,0,150,4531,88,0,0,321,2,20,0,428,61,Prime
+"Mcnatt, Aeriel",ELA,Highway Middle School,71,0,100,0,353.4,0,265,5224,1070,53,0,10,393,168,12,988,239,Prime
+"Hinton, Doris",Social Studies,Highway Middle School,145,0,98,0,335.925,0,90,3816,57,0,0,250,20,3,2,405,109,Prime
+"Clinton, Kyle",Social Studies,Highway Middle School,0,226,0,58,0,312.8389,65,0,187,0,0,0,0,3,0,0,0,Prime
+"al-Aly, Aqeela",ELA,Highway Middle School,0,78,0,65,0,291.8389,45,0,197,0,0,0,0,22,0,0,0,Prime
+"Wilson, Alyssa",ELA,Highway Middle School,137,0,84,0,267.9778,0,148,7879,1049,70,23,73,25,111,0,62,16,Prime
+"Agan, Karissa",ELA,Highway Middle School,91,20,43,24,239.3333,4.7,208,2702,972,42,136,300,388,2,14,178,14,Prime
+"el-Akhter, Mubaaraka",ELA,Highway Middle School,88,0,59,0,235.225,0,87,5750,989,0,0,4,0,24,0,43,44,Prime
+"Bulwan, Tailor",ELA,Highway Middle School,62,0,15,0,230.8389,0,160,2956,23,14,54,437,15,2,0,215,34,Prime
+"al-Saad, Mahfooz",Special Education,Highway Middle School,0,62,0,15,0,228.0611,97,0,23,0,1,0,0,2,0,0,0,Prime
+"Beckham, Riley",Science,Highway Middle School,184,0,14,0,193.4639,0,56,3060,42,0,0,18,2,0,0,134,19,Prime
+"Wong, Filipe",ELA,Highway Middle School,75,0,32,0,190.5528,0,119,2914,958,0,1,2,16,4,0,39,18,Prime
+"Yoon, Samantha",ELA,Highway Middle School,113,0,79,0,171.25,0,376,3622,137,7,2,0,169,324,4,349,48,Prime
+"Sandoval, Cecilia",Science,Highway Middle School,166,0,12,0,167.5389,0,94,3228,64,6,2,10,4,2,0,113,13,Prime
+"Houston, Clifton",Special Education,Highway Middle School,0,130,0,30,0,80.0139,16,0,92,0,0,0,0,0,0,0,0,Prime
+"Waddell, Breyleejo",ELA,Highway Middle School,0,60,0,33,0,76.6361,21,0,0,0,0,0,0,0,0,0,0,Prime
+"Rodriguez, Jessica",ELA,Highway Middle School,98,0,14,0,70.2028,0,69,1178,946,5,0,2,12,7,0,28,20,Prime
+"Granillo, Oscar",ELA,Highway Middle School,15,0,46,0,34.2361,0,90,128,538,16,9,0,2,0,0,448,0,Prime
+"Delk, Perla",Social Studies,Highway Middle School,101,0,15,0,26.1444,0,63,706,935,0,0,0,0,1,0,4,1,Prime
+"Vega, Fanio",ELA,Highway Middle School,83,0,5,0,25.6028,0,53,517,5,0,0,0,149,22,1,5,61,Prime
+"Hassell, Lawrence",Social Studies,Highway Middle School,64,0,19,0,18.0611,0,86,546,923,0,0,1,1,0,0,1,0,Prime
+"Maez, Christal",ELA,Highway Middle School,61,0,6,0,12.9389,0,72,554,929,0,0,0,0,2,0,20,1,Prime
+"Hoekman, Branden",Social Studies,Highway Middle School,26,0,1,0,5.7056,0,8,119,925,0,0,0,0,0,0,1,3,Prime
+"Kastrinsky, Morgan",Other,Highway Middle School,20,0,24,0,4.7,0,53,59,924,0,0,0,0,0,0,1,2,Prime
+"Silas, Tarquin",ELA,Highway Middle School,27,0,4,0,3.9306,0,10,121,936,0,0,0,0,0,0,13,17,Prime
+"Thompson, Brice",Special Education,Highway Middle School,0,21,0,4,0,1.7056,1,0,4,0,0,0,0,0,0,0,0,Prime
+"Hicks-Young, Aiyalah",ELA,Highway Middle School,5,0,1,0,0.825,0,5,20,11,0,0,0,0,0,0,0,0,Prime
+"Kelly, Darian",ELA,Highway Middle School,0,0,0,0,0,0,2,0,921,0,0,0,0,0,0,0,0,Prime
+"Chen, Amy",ELA,Highway Middle School,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0,0,0,Prime
+"Sanchez, Ashley",Science,Highway Middle School,0,0,0,0,0,0,3,0,921,0,0,0,0,0,0,0,0,Prime
+"el-Ismael, Abdul Khaliq",Science,Highway Middle School,0,0,0,0,0,0,6,0,921,0,0,0,0,0,0,0,0,Prime
+"Ray, Shane",Science,Highway Middle School,0,0,0,0,0,0,1,0,921,0,0,0,0,0,0,0,0,Free
+"Sivixai, Ankhtuja",Special Education,Highway Middle School,0,0,0,0,0,0,8,0,4,0,0,0,0,39,0,0,0,Free
+"Gomez, Luisa",Other,Highway Middle School,0,0,0,0,0,0,2,0,921,0,0,0,0,0,0,0,0,Prime
+"Gorove, Dakota",Science,Highway Middle School,0,0,0,0,0,0,1,0,921,0,0,0,0,0,0,0,0,Prime
+"Johnson, Jesika",Other,Highway Middle School,0,0,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,Prime
+"Rude, Ishmam",Math,Highway Middle School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,Prime
+"Carrillo, Jacob",Special Education,Highway Middle School,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,Prime
+"Gulley, Stephanie",ELA,Matt Middle School,120,0,175,0,249.675,0,216,4473,206,0,113,20,37,91,4,99,170,NA
+"Cordova, Andrew",ELA,Matt Middle School,66,0,35,0,107.9917,0,137,2537,52,0,50,145,3,22,0,349,26,NA
+"al-Satter, Jasra",Social Studies,Matt Middle School,109,0,17,0,62.2028,0,76,1324,59,0,14,5,23,5,0,5,58,NA
+"Massey, Ruby",ELA,Matt Middle School,0,25,0,12,0,39.1722,7,0,52,0,4,0,0,17,0,0,0,NA
+"Mccain, Austin",Science,Matt Middle School,59,0,13,0,33.9028,0,39,686,19,0,0,4,0,1,0,5,0,NA
+"Petrie, Kevon",Social Studies,Matt Middle School,69,0,6,0,30.7111,0,30,618,8,0,0,0,0,3,0,4,11,NA
+"Larson, Taeler",Science,Matt Middle School,43,0,4,0,11.2222,0,17,273,6,0,0,0,0,32,0,6,1,NA
+"al-Kaba, Abdul Kader",ELA,Matt Middle School,8,18,4,1,4.8139,6.3583,27,63,29,0,0,0,0,0,0,0,0,NA
+"Weeks, Brandon",Social Studies,Matt Middle School,38,0,6,0,9.9028,0,10,134,5,0,0,0,0,1,0,9,2,NA
+"Thompson, Danae",ELA,Matt Middle School,32,0,4,0,8.1333,0,49,118,10,0,0,0,0,0,0,3,0,NA
+"Kim, Karen",Other,Matt Middle School,23,0,17,0,6.1083,0,66,34,75,0,0,0,2,2,0,26,31,NA
+"Morales, Kayla",Social Studies,Matt Middle School,1,0,2,0,0.375,0,16,4,6,0,0,0,0,0,0,28,0,NA
+"Mccorvey, Cameron",Special Education,Matt Middle School,0,1,0,1,0,0.125,4,0,10,0,0,0,0,0,0,0,0,NA
+"Lee, Brianna",ELA,Matt Middle School,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,NA
+"John-Baptiste, Jasmine",ELA,Matt Middle School,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,NA
+"Sandoval, Manuel",ELA,Matt Middle School,0,0,0,0,0,0,281,0,0,0,0,0,0,0,0,0,0,NA
+"Smith, Niesha",ELA,Matt Middle School,0,0,0,0,0,0,39,0,4,0,1,0,0,0,0,1,0,NA
+"Tehero, Ashleigh",ELA,Matt Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"al-Galla, Haibaa",ELA,Matt Middle School,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,NA
+"Sobalvarro, Angela",Science,Matt Middle School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,NA
+"Slovonsky, Bruce",ELA,Matt Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Vasquez, Joseph",Science,Matt Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Casillas, Israel",Science,Matt Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Smith, Amber",Social Studies,Matt Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"al-Ahmad, Ghaamid",Social Studies,Matt Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Delarosa, Ji Hoon",Social Studies,Matt Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Carruthers, Ricky",Other,Matt Middle School,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,NA
+"Suriwong, Latisha",Other,Matt Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"el-Jaber, Raheema",Social Studies,Daisy High School,129,0,117,0,488.3722,0,417,6765,86,117,16,219,22,5,13,450,307,NA
+"Nguyen, Nicholas",ELA,Daisy High School,120,0,27,0,120.4306,0,57,20,8,0,0,0,1553,46,79,43,11,NA
+"el-Farhat, Mukarram",ELA,Daisy High School,139,0,31,0,114.9667,0,55,228,14,0,0,0,1214,12,72,141,5,NA
+"Trevizo, Adan",Other,Daisy High School,192,0,22,0,97.7361,0,70,390,12,0,0,0,1289,29,93,13,31,NA
+"Mcknight, Brittney",Social Studies,Daisy High School,0,26,0,21,0,62.2028,19,0,28,0,0,0,0,1,0,0,0,NA
+"el-Assad, Abdul Ghafoor",Science,Daisy High School,112,0,45,0,54.3972,0,72,1961,26,0,0,12,2,0,0,23,1,NA
+"Ng, Joseph",ELA,Daisy High School,0,63,0,12,0,49.95,18,0,14,0,0,0,0,1,0,0,0,NA
+"Agenar, Xiaorui",ELA,Daisy High School,44,0,11,0,31.9778,0,26,163,18,0,0,0,193,8,4,34,1,NA
+"Gonzales, Kelsen",ELA,Daisy High School,57,0,8,0,29.7944,0,29,372,15,0,0,0,0,0,0,148,8,NA
+"Zarcula, Kati",ELA,Daisy High School,22,0,5,0,27.5528,0,19,124,12,0,0,0,343,4,178,18,5,NA
+"Marynowski, Marcus",ELA,Daisy High School,17,0,7,0,18.1972,0,22,347,17,4,1,0,2,1,0,10,6,NA
+"Vaile, My-Hao",ELA,Daisy High School,16,0,10,0,14.2528,0,21,137,30,0,0,0,23,0,0,1,4,NA
+"Fox, Marcel",Other,Daisy High School,25,0,6,0,9.2778,0,25,118,17,0,0,3,0,5,0,3,0,NA
+"Williams, Theophilus",ELA,Daisy High School,25,0,2,0,8.475,0,25,139,5,0,0,0,1,8,0,20,1,NA
+"Mubili, Sequoia",ELA,Daisy High School,34,0,2,0,8.0833,0,18,221,10,0,0,0,0,2,0,1,0,NA
+"Reyes, Cesar",Science,Daisy High School,40,0,8,0,7.825,0,31,128,13,0,8,1,1,0,0,4,8,NA
+"Villanueva, Michael",Science,Daisy High School,28,0,5,0,4.2722,0,16,143,5,0,0,0,0,0,0,0,0,NA
+"Clark, Shaniqua",ELA,Daisy High School,11,0,1,0,2.0583,0,16,196,101,0,0,0,0,0,0,8,0,NA
+"Nobrega, Kathryn",ELA,Daisy High School,4,0,3,0,1.0722,0,1,11,85,0,0,0,0,0,0,0,0,NA
+"Duvall-Valverde, Leanndra",Social Studies,Daisy High School,1,0,1,0,0.3472,0,17,4,11,0,0,0,0,0,0,0,0,NA
+"al-Masih, Saamir",ELA,Daisy High School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Rosenbaum, Timothy",Other,Daisy High School,0,0,0,0,0,0,6,0,4,0,0,0,0,0,0,0,0,NA
+"Hamm, Michael",Other,Daisy High School,0,0,0,0,0,0,84,0,5,0,0,0,0,0,0,0,0,NA
+"Miranda, Thuyvi",Science,Daisy High School,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,NA
+"al-Basa, Nabeeh",ELA,Daisy High School,0,0,0,0,0,0,23,0,7,0,0,0,0,0,0,1,0,NA
+"Belen, Murphy",ELA,Daisy High School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Garcia, John",Science,Daisy High School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Rivera, Itza",ELA,Daisy High School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Verde, Karlena",Other,Daisy High School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Samuel, Antonio",ELA,Lillian Middle School,85,0,286,0,705.8528,0,377,18334,303,0,6,224,42,475,4,798,389,NA
+"Silva, William",ELA,Lillian Middle School,278,0,72,0,264.5861,0,378,5475,115,8,11,44,111,196,2,88,201,NA
+"Shyu, Raqim",ELA,Lillian Middle School,43,0,19,0,224.1444,0,298,3646,103,19,175,66,70,1,49,754,54,NA
+"Lee, Ashley",ELA,Lillian Middle School,123,0,41,0,194.2917,0,279,3707,86,9,1,37,6,20,0,335,110,NA
+"Navajo, Michael",ELA,Lillian Middle School,95,0,21,0,152.2333,0,194,2187,45,0,17,21,5,706,0,76,30,NA
+"Bowman, Rachel",ELA,Lillian Middle School,126,0,45,0,147.5,0,71,3938,75,0,0,6,4,24,0,93,18,NA
+"Watson, Robert",Special Education,Lillian Middle School,0,58,0,25,0,116.7917,120,0,36,0,95,0,0,10,0,0,0,NA
+"Avila Suarez, Maria",ELA,Lillian Middle School,100,0,23,0,103.5556,0,80,1612,20,0,0,3,1,1,0,19,2,NA
+"Garland, Andrea",ELA,Lillian Middle School,66,0,12,0,99.5889,0,52,1558,21,0,32,29,6,72,1,71,15,NA
+"Funk, Katelyn",ELA,Lillian Middle School,69,0,26,0,99.2444,0,181,2147,46,0,0,74,9,3,0,117,19,NA
+"Cornish, Ethan",Social Studies,Lillian Middle School,129,0,6,0,79.2361,0,15,1376,9,0,0,0,2,0,0,29,23,NA
+"Elwood, Breanna",ELA,Lillian Middle School,159,0,6,0,64.5167,0,23,589,2,0,0,0,1,0,0,5,22,NA
+"al-Ghazi, Aseel",ELA,Lillian Middle School,0,41,0,8,0,59.7861,17,0,21,0,0,0,0,39,0,0,0,NA
+"Garcia, Jonathan",ELA,Lillian Middle School,69,0,9,0,58.7028,0,112,855,10,0,8,0,1,3,0,18,1,NA
+"Melnick, Catherine",ELA,Lillian Middle School,70,0,8,0,41,0,86,827,12,0,0,0,1,215,0,15,6,NA
+"al-Salaam, Yahya",Special Education,Lillian Middle School,0,24,0,6,0,37.3167,12,0,26,0,0,0,0,341,0,0,0,NA
+"Summerfield, Travis",Special Education,Lillian Middle School,0,39,0,17,0,32.5083,15,0,43,0,0,0,0,3,0,0,0,NA
+"Hendricks, Seung",ELA,Lillian Middle School,57,0,10,0,20.0722,0,31,393,6,0,0,1,0,46,0,29,16,NA
+"Terrazas-Hernandez, Brooke",Special Education,Lillian Middle School,0,57,0,10,0,20.0722,2,0,6,0,0,0,0,46,0,0,0,NA
+"Stadelman, Axel",Social Studies,Lillian Middle School,20,0,2,0,13.9833,0,51,186,11,0,6,5,0,1,0,19,2,NA
+"West, Brandon",Special Education,Lillian Middle School,8,0,9,0,12.3667,0,45,263,35,0,0,29,1,2,0,195,1,NA
+"Rudolph, Taylor",Science,Lillian Middle School,1,0,1,0,0.1056,0,6,4,5,0,0,0,0,0,0,0,0,NA
+"el-Agha, Salma",ELA,Lillian Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Higgins, Drae",ELA,Lillian Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Duenas Alvarez, Marco",ELA,Lillian Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Two Crow, Sierra",Special Education,Lillian Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Martell, Johannah",ELA,Lillian Middle School,0,0,0,0,0,0,202,0,12,0,0,0,0,0,0,0,0,NA
+"Ramirez Castro, Julian",ELA,Lillian Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Armor, Rosemary",Science,Lillian Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,NA
+"Luna, Uriah",Social Studies,Lillian Middle School,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,NA
+"Hayes-Joshua, Matthew",Social Studies,Lillian Middle School,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,NA
+"Allen, Andrew",ELA,Lillian Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Love, Andrea",Social Studies,Lillian Middle School,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+"Velez, Megan",Math,Lillian Middle School,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,NA
+"Delmendo, Jeffrey",Science,Online Middle School,128,0,96,0,177.5972,0,610,3750,64,8,0,272,8,6,4,552,22,Prime
+"Frankenberg, Kristin",Social Studies,Online Middle School,95,0,24,0,77.4667,0,130,1484,60,0,0,17,7,7,4,226,20,Prime
+"el-Abbas, Afaaf",Science,Online Middle School,0,39,0,10,0,21.7639,35,0,0,0,0,0,0,0,0,0,0,Free
+"Prince, Victoria",Other,Online Middle School,6,0,2,0,1.375,0,17,16,9,0,0,7,0,0,0,1,0,Prime
+"Ovick, Cody",ELA,Online Middle School,8,0,3,0,1.3028,0,4,24,2,0,0,0,0,0,0,6,0,Prime
+"Riley, Kristen",ELA,Online Middle School,0,0,0,0,0,0,77,0,6,0,4,1,0,0,0,2,0,Prime
+"Cheung, Aaron",Science,Online Middle School,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Prime
+"Gstalder, Brenda",Math,Online Middle School,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,Prime
